@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28D936815EEE872006FE569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28D936715EEE872006FE569 /* UIKit.framework */; };
+		F28D936A15EEE872006FE569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28D936915EEE872006FE569 /* Foundation.framework */; };
+		F28D936C15EEE872006FE569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28D936B15EEE872006FE569 /* CoreGraphics.framework */; };
+		F28D937215EEE872006FE569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F28D937015EEE872006FE569 /* InfoPlist.strings */; };
+		F28D937415EEE872006FE569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D937315EEE872006FE569 /* main.m */; };
+		F28D937815EEE872006FE569 /* JankenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D937715EEE872006FE569 /* JankenAppDelegate.m */; };
+		F28D937B15EEE872006FE569 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28D937915EEE872006FE569 /* MainStoryboard.storyboard */; };
+		F28D937E15EEE872006FE569 /* JankenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D937D15EEE872006FE569 /* JankenViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F28D936315EEE872006FE569 /* Janken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28D936715EEE872006FE569 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F28D936915EEE872006FE569 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F28D936B15EEE872006FE569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F28D936F15EEE872006FE569 /* Janken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Janken-Info.plist"; sourceTree = "<group>"; };
+		F28D937115EEE872006FE569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F28D937315EEE872006FE569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F28D937515EEE872006FE569 /* Janken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Janken-Prefix.pch"; sourceTree = "<group>"; };
+		F28D937615EEE872006FE569 /* JankenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JankenAppDelegate.h; sourceTree = "<group>"; };
+		F28D937715EEE872006FE569 /* JankenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenAppDelegate.m; sourceTree = "<group>"; };
+		F28D937A15EEE872006FE569 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F28D937C15EEE872006FE569 /* JankenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JankenViewController.h; sourceTree = "<group>"; };
+		F28D937D15EEE872006FE569 /* JankenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28D936015EEE872006FE569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28D936815EEE872006FE569 /* UIKit.framework in Frameworks */,
+				F28D936A15EEE872006FE569 /* Foundation.framework in Frameworks */,
+				F28D936C15EEE872006FE569 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28D935815EEE872006FE569 = {
+			isa = PBXGroup;
+			children = (
+				F28D936D15EEE872006FE569 /* Janken */,
+				F28D936615EEE872006FE569 /* Frameworks */,
+				F28D936415EEE872006FE569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28D936415EEE872006FE569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28D936315EEE872006FE569 /* Janken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28D936615EEE872006FE569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F28D936715EEE872006FE569 /* UIKit.framework */,
+				F28D936915EEE872006FE569 /* Foundation.framework */,
+				F28D936B15EEE872006FE569 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28D936D15EEE872006FE569 /* Janken */ = {
+			isa = PBXGroup;
+			children = (
+				F28D937615EEE872006FE569 /* JankenAppDelegate.h */,
+				F28D937715EEE872006FE569 /* JankenAppDelegate.m */,
+				F28D937915EEE872006FE569 /* MainStoryboard.storyboard */,
+				F28D937C15EEE872006FE569 /* JankenViewController.h */,
+				F28D937D15EEE872006FE569 /* JankenViewController.m */,
+				F28D936E15EEE872006FE569 /* Supporting Files */,
+			);
+			path = Janken;
+			sourceTree = "<group>";
+		};
+		F28D936E15EEE872006FE569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28D936F15EEE872006FE569 /* Janken-Info.plist */,
+				F28D937015EEE872006FE569 /* InfoPlist.strings */,
+				F28D937315EEE872006FE569 /* main.m */,
+				F28D937515EEE872006FE569 /* Janken-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28D936215EEE872006FE569 /* Janken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28D938115EEE872006FE569 /* Build configuration list for PBXNativeTarget "Janken" */;
+			buildPhases = (
+				F28D935F15EEE872006FE569 /* Sources */,
+				F28D936015EEE872006FE569 /* Frameworks */,
+				F28D936115EEE872006FE569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Janken;
+			productName = Janken;
+			productReference = F28D936315EEE872006FE569 /* Janken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28D935A15EEE872006FE569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Janken;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F28D935D15EEE872006FE569 /* Build configuration list for PBXProject "Janken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F28D935815EEE872006FE569;
+			productRefGroup = F28D936415EEE872006FE569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28D936215EEE872006FE569 /* Janken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28D936115EEE872006FE569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28D937215EEE872006FE569 /* InfoPlist.strings in Resources */,
+				F28D937B15EEE872006FE569 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28D935F15EEE872006FE569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28D937415EEE872006FE569 /* main.m in Sources */,
+				F28D937815EEE872006FE569 /* JankenAppDelegate.m in Sources */,
+				F28D937E15EEE872006FE569 /* JankenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F28D937015EEE872006FE569 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28D937115EEE872006FE569 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F28D937915EEE872006FE569 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28D937A15EEE872006FE569 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28D937F15EEE872006FE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F28D938015EEE872006FE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28D938215EEE872006FE569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Janken/Janken-Prefix.pch";
+				INFOPLIST_FILE = "Janken/Janken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F28D938315EEE872006FE569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Janken/Janken-Prefix.pch";
+				INFOPLIST_FILE = "Janken/Janken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28D935D15EEE872006FE569 /* Build configuration list for PBXProject "Janken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28D937F15EEE872006FE569 /* Debug */,
+				F28D938015EEE872006FE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28D938115EEE872006FE569 /* Build configuration list for PBXNativeTarget "Janken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28D938215EEE872006FE569 /* Debug */,
+				F28D938315EEE872006FE569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28D935A15EEE872006FE569 /* Project object */;
+}
