@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2B0C46C15EF646300FFC79B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C46B15EF646300FFC79B /* UIKit.framework */; };
+		F2B0C46E15EF646300FFC79B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C46D15EF646300FFC79B /* Foundation.framework */; };
+		F2B0C47015EF646300FFC79B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C46F15EF646300FFC79B /* CoreGraphics.framework */; };
+		F2B0C47615EF646300FFC79B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C47415EF646300FFC79B /* InfoPlist.strings */; };
+		F2B0C47815EF646300FFC79B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C47715EF646300FFC79B /* main.m */; };
+		F2B0C47C15EF646300FFC79B /* Puzzle15AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C47B15EF646300FFC79B /* Puzzle15AppDelegate.m */; };
+		F2B0C47F15EF646300FFC79B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C47D15EF646300FFC79B /* MainStoryboard.storyboard */; };
+		F2B0C48215EF646300FFC79B /* Puzzle15ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C48115EF646300FFC79B /* Puzzle15ViewController.m */; };
+		F2B0C49815EF649900FFC79B /* 01.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C48915EF649900FFC79B /* 01.gif */; };
+		F2B0C49915EF649900FFC79B /* 02.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C48A15EF649900FFC79B /* 02.gif */; };
+		F2B0C49A15EF649900FFC79B /* 03.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C48B15EF649900FFC79B /* 03.gif */; };
+		F2B0C49B15EF649900FFC79B /* 04.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C48C15EF649900FFC79B /* 04.gif */; };
+		F2B0C49C15EF649900FFC79B /* 05.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C48D15EF649900FFC79B /* 05.gif */; };
+		F2B0C49D15EF649900FFC79B /* 06.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C48E15EF649900FFC79B /* 06.gif */; };
+		F2B0C49E15EF649900FFC79B /* 07.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C48F15EF649900FFC79B /* 07.gif */; };
+		F2B0C49F15EF649900FFC79B /* 08.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49015EF649900FFC79B /* 08.gif */; };
+		F2B0C4A015EF649900FFC79B /* 09.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49115EF649900FFC79B /* 09.gif */; };
+		F2B0C4A115EF649900FFC79B /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49215EF649900FFC79B /* 10.gif */; };
+		F2B0C4A215EF649900FFC79B /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49315EF649900FFC79B /* 11.gif */; };
+		F2B0C4A315EF649900FFC79B /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49415EF649900FFC79B /* 12.gif */; };
+		F2B0C4A415EF649900FFC79B /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49515EF649900FFC79B /* 13.gif */; };
+		F2B0C4A515EF649900FFC79B /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49615EF649900FFC79B /* 14.gif */; };
+		F2B0C4A615EF649900FFC79B /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49715EF649900FFC79B /* 15.gif */; };
+		F2B0C4A915EF64F900FFC79B /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C4A815EF64F900FFC79B /* PieceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2B0C46715EF646300FFC79B /* Puzzle15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzle15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B0C46B15EF646300FFC79B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2B0C46D15EF646300FFC79B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2B0C46F15EF646300FFC79B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2B0C47315EF646300FFC79B /* Puzzle15-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzle15-Info.plist"; sourceTree = "<group>"; };
+		F2B0C47515EF646300FFC79B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2B0C47715EF646300FFC79B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2B0C47915EF646300FFC79B /* Puzzle15-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzzle15-Prefix.pch"; sourceTree = "<group>"; };
+		F2B0C47A15EF646300FFC79B /* Puzzle15AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puzzle15AppDelegate.h; sourceTree = "<group>"; };
+		F2B0C47B15EF646300FFC79B /* Puzzle15AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzzle15AppDelegate.m; sourceTree = "<group>"; };
+		F2B0C47E15EF646300FFC79B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2B0C48015EF646300FFC79B /* Puzzle15ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puzzle15ViewController.h; sourceTree = "<group>"; };
+		F2B0C48115EF646300FFC79B /* Puzzle15ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzzle15ViewController.m; sourceTree = "<group>"; };
+		F2B0C48915EF649900FFC79B /* 01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 01.gif; sourceTree = "<group>"; };
+		F2B0C48A15EF649900FFC79B /* 02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 02.gif; sourceTree = "<group>"; };
+		F2B0C48B15EF649900FFC79B /* 03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 03.gif; sourceTree = "<group>"; };
+		F2B0C48C15EF649900FFC79B /* 04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 04.gif; sourceTree = "<group>"; };
+		F2B0C48D15EF649900FFC79B /* 05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 05.gif; sourceTree = "<group>"; };
+		F2B0C48E15EF649900FFC79B /* 06.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 06.gif; sourceTree = "<group>"; };
+		F2B0C48F15EF649900FFC79B /* 07.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 07.gif; sourceTree = "<group>"; };
+		F2B0C49015EF649900FFC79B /* 08.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 08.gif; sourceTree = "<group>"; };
+		F2B0C49115EF649900FFC79B /* 09.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 09.gif; sourceTree = "<group>"; };
+		F2B0C49215EF649900FFC79B /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10.gif; sourceTree = "<group>"; };
+		F2B0C49315EF649900FFC79B /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		F2B0C49415EF649900FFC79B /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12.gif; sourceTree = "<group>"; };
+		F2B0C49515EF649900FFC79B /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13.gif; sourceTree = "<group>"; };
+		F2B0C49615EF649900FFC79B /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14.gif; sourceTree = "<group>"; };
+		F2B0C49715EF649900FFC79B /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 15.gif; sourceTree = "<group>"; };
+		F2B0C4A715EF64F900FFC79B /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceView.h; sourceTree = "<group>"; };
+		F2B0C4A815EF64F900FFC79B /* PieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B0C46415EF646300FFC79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B0C46C15EF646300FFC79B /* UIKit.framework in Frameworks */,
+				F2B0C46E15EF646300FFC79B /* Foundation.framework in Frameworks */,
+				F2B0C47015EF646300FFC79B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2B0C45C15EF646300FFC79B = {
+			isa = PBXGroup;
+			children = (
+				F2B0C48815EF648900FFC79B /* images */,
+				F2B0C47115EF646300FFC79B /* Puzzle15 */,
+				F2B0C46A15EF646300FFC79B /* Frameworks */,
+				F2B0C46815EF646300FFC79B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B0C46815EF646300FFC79B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0C46715EF646300FFC79B /* Puzzle15.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B0C46A15EF646300FFC79B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0C46B15EF646300FFC79B /* UIKit.framework */,
+				F2B0C46D15EF646300FFC79B /* Foundation.framework */,
+				F2B0C46F15EF646300FFC79B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B0C47115EF646300FFC79B /* Puzzle15 */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0C47A15EF646300FFC79B /* Puzzle15AppDelegate.h */,
+				F2B0C47B15EF646300FFC79B /* Puzzle15AppDelegate.m */,
+				F2B0C47D15EF646300FFC79B /* MainStoryboard.storyboard */,
+				F2B0C48015EF646300FFC79B /* Puzzle15ViewController.h */,
+				F2B0C48115EF646300FFC79B /* Puzzle15ViewController.m */,
+				F2B0C47215EF646300FFC79B /* Supporting Files */,
+				F2B0C4A715EF64F900FFC79B /* PieceView.h */,
+				F2B0C4A815EF64F900FFC79B /* PieceView.m */,
+			);
+			path = Puzzle15;
+			sourceTree = "<group>";
+		};
+		F2B0C47215EF646300FFC79B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0C47315EF646300FFC79B /* Puzzle15-Info.plist */,
+				F2B0C47415EF646300FFC79B /* InfoPlist.strings */,
+				F2B0C47715EF646300FFC79B /* main.m */,
+				F2B0C47915EF646300FFC79B /* Puzzle15-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2B0C48815EF648900FFC79B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0C48915EF649900FFC79B /* 01.gif */,
+				F2B0C48A15EF649900FFC79B /* 02.gif */,
+				F2B0C48B15EF649900FFC79B /* 03.gif */,
+				F2B0C48C15EF649900FFC79B /* 04.gif */,
+				F2B0C48D15EF649900FFC79B /* 05.gif */,
+				F2B0C48E15EF649900FFC79B /* 06.gif */,
+				F2B0C48F15EF649900FFC79B /* 07.gif */,
+				F2B0C49015EF649900FFC79B /* 08.gif */,
+				F2B0C49115EF649900FFC79B /* 09.gif */,
+				F2B0C49215EF649900FFC79B /* 10.gif */,
+				F2B0C49315EF649900FFC79B /* 11.gif */,
+				F2B0C49415EF649900FFC79B /* 12.gif */,
+				F2B0C49515EF649900FFC79B /* 13.gif */,
+				F2B0C49615EF649900FFC79B /* 14.gif */,
+				F2B0C49715EF649900FFC79B /* 15.gif */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B0C46615EF646300FFC79B /* Puzzle15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B0C48515EF646300FFC79B /* Build configuration list for PBXNativeTarget "Puzzle15" */;
+			buildPhases = (
+				F2B0C46315EF646300FFC79B /* Sources */,
+				F2B0C46415EF646300FFC79B /* Frameworks */,
+				F2B0C46515EF646300FFC79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzle15;
+			productName = Puzzle15;
+			productReference = F2B0C46715EF646300FFC79B /* Puzzle15.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B0C45E15EF646300FFC79B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Puzzle15;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F2B0C46115EF646300FFC79B /* Build configuration list for PBXProject "Puzzle15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2B0C45C15EF646300FFC79B;
+			productRefGroup = F2B0C46815EF646300FFC79B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B0C46615EF646300FFC79B /* Puzzle15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B0C46515EF646300FFC79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B0C47615EF646300FFC79B /* InfoPlist.strings in Resources */,
+				F2B0C47F15EF646300FFC79B /* MainStoryboard.storyboard in Resources */,
+				F2B0C49815EF649900FFC79B /* 01.gif in Resources */,
+				F2B0C49915EF649900FFC79B /* 02.gif in Resources */,
+				F2B0C49A15EF649900FFC79B /* 03.gif in Resources */,
+				F2B0C49B15EF649900FFC79B /* 04.gif in Resources */,
+				F2B0C49C15EF649900FFC79B /* 05.gif in Resources */,
+				F2B0C49D15EF649900FFC79B /* 06.gif in Resources */,
+				F2B0C49E15EF649900FFC79B /* 07.gif in Resources */,
+				F2B0C49F15EF649900FFC79B /* 08.gif in Resources */,
+				F2B0C4A015EF649900FFC79B /* 09.gif in Resources */,
+				F2B0C4A115EF649900FFC79B /* 10.gif in Resources */,
+				F2B0C4A215EF649900FFC79B /* 11.gif in Resources */,
+				F2B0C4A315EF649900FFC79B /* 12.gif in Resources */,
+				F2B0C4A415EF649900FFC79B /* 13.gif in Resources */,
+				F2B0C4A515EF649900FFC79B /* 14.gif in Resources */,
+				F2B0C4A615EF649900FFC79B /* 15.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B0C46315EF646300FFC79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B0C47815EF646300FFC79B /* main.m in Sources */,
+				F2B0C47C15EF646300FFC79B /* Puzzle15AppDelegate.m in Sources */,
+				F2B0C48215EF646300FFC79B /* Puzzle15ViewController.m in Sources */,
+				F2B0C4A915EF64F900FFC79B /* PieceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2B0C47415EF646300FFC79B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B0C47515EF646300FFC79B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2B0C47D15EF646300FFC79B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B0C47E15EF646300FFC79B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2B0C48315EF646300FFC79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2B0C48415EF646300FFC79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B0C48615EF646300FFC79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle15/Puzzle15-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle15/Puzzle15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2B0C48715EF646300FFC79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzzle15/Puzzle15-Prefix.pch";
+				INFOPLIST_FILE = "Puzzle15/Puzzle15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B0C46115EF646300FFC79B /* Build configuration list for PBXProject "Puzzle15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B0C48315EF646300FFC79B /* Debug */,
+				F2B0C48415EF646300FFC79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B0C48515EF646300FFC79B /* Build configuration list for PBXNativeTarget "Puzzle15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B0C48615EF646300FFC79B /* Debug */,
+				F2B0C48715EF646300FFC79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B0C45E15EF646300FFC79B /* Project object */;
+}
