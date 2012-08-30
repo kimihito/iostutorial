@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JankenViewController : UIViewController
+@interface JankenViewController : UIViewController{
+    UIImageView *myImageView;
+    NSArray *images;
+}
+@property(retain)NSArray *images;
+@property (retain, nonatomic) IBOutlet UIImageView *myImageView;
+- (IBAction)startJanken:(id)sender;
 
+- (IBAction)stopJanken:(id)sender;
 @end

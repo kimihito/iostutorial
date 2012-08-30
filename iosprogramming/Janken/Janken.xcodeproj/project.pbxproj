@@ -7,107 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F28D936815EEE872006FE569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28D936715EEE872006FE569 /* UIKit.framework */; };
-		F28D936A15EEE872006FE569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28D936915EEE872006FE569 /* Foundation.framework */; };
-		F28D936C15EEE872006FE569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28D936B15EEE872006FE569 /* CoreGraphics.framework */; };
-		F28D937215EEE872006FE569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F28D937015EEE872006FE569 /* InfoPlist.strings */; };
-		F28D937415EEE872006FE569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D937315EEE872006FE569 /* main.m */; };
-		F28D937815EEE872006FE569 /* JankenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D937715EEE872006FE569 /* JankenAppDelegate.m */; };
-		F28D937B15EEE872006FE569 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28D937915EEE872006FE569 /* MainStoryboard.storyboard */; };
-		F28D937E15EEE872006FE569 /* JankenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D937D15EEE872006FE569 /* JankenViewController.m */; };
+		F2B0C43915EEE92800FFC79B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C43815EEE92800FFC79B /* UIKit.framework */; };
+		F2B0C43B15EEE92800FFC79B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C43A15EEE92800FFC79B /* Foundation.framework */; };
+		F2B0C43D15EEE92800FFC79B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C43C15EEE92800FFC79B /* CoreGraphics.framework */; };
+		F2B0C44315EEE92800FFC79B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C44115EEE92800FFC79B /* InfoPlist.strings */; };
+		F2B0C44515EEE92800FFC79B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C44415EEE92800FFC79B /* main.m */; };
+		F2B0C44915EEE92800FFC79B /* JankenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C44815EEE92800FFC79B /* JankenAppDelegate.m */; };
+		F2B0C44C15EEE92800FFC79B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C44A15EEE92800FFC79B /* MainStoryboard.storyboard */; };
+		F2B0C44F15EEE92800FFC79B /* JankenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C44E15EEE92800FFC79B /* JankenViewController.m */; };
+		F2B0C45915EEEB4800FFC79B /* pa.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C45615EEEB4800FFC79B /* pa.png */; };
+		F2B0C45A15EEEB4800FFC79B /* choki.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C45715EEEB4800FFC79B /* choki.png */; };
+		F2B0C45B15EEEB4800FFC79B /* guu.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C45815EEEB4800FFC79B /* guu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F28D936315EEE872006FE569 /* Janken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janken.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F28D936715EEE872006FE569 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F28D936915EEE872006FE569 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F28D936B15EEE872006FE569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F28D936F15EEE872006FE569 /* Janken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Janken-Info.plist"; sourceTree = "<group>"; };
-		F28D937115EEE872006FE569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F28D937315EEE872006FE569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F28D937515EEE872006FE569 /* Janken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Janken-Prefix.pch"; sourceTree = "<group>"; };
-		F28D937615EEE872006FE569 /* JankenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JankenAppDelegate.h; sourceTree = "<group>"; };
-		F28D937715EEE872006FE569 /* JankenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenAppDelegate.m; sourceTree = "<group>"; };
-		F28D937A15EEE872006FE569 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F28D937C15EEE872006FE569 /* JankenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JankenViewController.h; sourceTree = "<group>"; };
-		F28D937D15EEE872006FE569 /* JankenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenViewController.m; sourceTree = "<group>"; };
+		F2B0C43415EEE92800FFC79B /* Janken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B0C43815EEE92800FFC79B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2B0C43A15EEE92800FFC79B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2B0C43C15EEE92800FFC79B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2B0C44015EEE92800FFC79B /* Janken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Janken-Info.plist"; sourceTree = "<group>"; };
+		F2B0C44215EEE92800FFC79B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2B0C44415EEE92800FFC79B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2B0C44615EEE92800FFC79B /* Janken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Janken-Prefix.pch"; sourceTree = "<group>"; };
+		F2B0C44715EEE92800FFC79B /* JankenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JankenAppDelegate.h; sourceTree = "<group>"; };
+		F2B0C44815EEE92800FFC79B /* JankenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenAppDelegate.m; sourceTree = "<group>"; };
+		F2B0C44B15EEE92800FFC79B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2B0C44D15EEE92800FFC79B /* JankenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JankenViewController.h; sourceTree = "<group>"; };
+		F2B0C44E15EEE92800FFC79B /* JankenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JankenViewController.m; sourceTree = "<group>"; };
+		F2B0C45615EEEB4800FFC79B /* pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pa.png; sourceTree = "<group>"; };
+		F2B0C45715EEEB4800FFC79B /* choki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choki.png; sourceTree = "<group>"; };
+		F2B0C45815EEEB4800FFC79B /* guu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F28D936015EEE872006FE569 /* Frameworks */ = {
+		F2B0C43115EEE92800FFC79B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28D936815EEE872006FE569 /* UIKit.framework in Frameworks */,
-				F28D936A15EEE872006FE569 /* Foundation.framework in Frameworks */,
-				F28D936C15EEE872006FE569 /* CoreGraphics.framework in Frameworks */,
+				F2B0C43915EEE92800FFC79B /* UIKit.framework in Frameworks */,
+				F2B0C43B15EEE92800FFC79B /* Foundation.framework in Frameworks */,
+				F2B0C43D15EEE92800FFC79B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F28D935815EEE872006FE569 = {
+		F2B0C42915EEE92800FFC79B = {
 			isa = PBXGroup;
 			children = (
-				F28D936D15EEE872006FE569 /* Janken */,
-				F28D936615EEE872006FE569 /* Frameworks */,
-				F28D936415EEE872006FE569 /* Products */,
+				F2B0C45515EEE93900FFC79B /* images */,
+				F2B0C43E15EEE92800FFC79B /* Janken */,
+				F2B0C43715EEE92800FFC79B /* Frameworks */,
+				F2B0C43515EEE92800FFC79B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F28D936415EEE872006FE569 /* Products */ = {
+		F2B0C43515EEE92800FFC79B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F28D936315EEE872006FE569 /* Janken.app */,
+				F2B0C43415EEE92800FFC79B /* Janken.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F28D936615EEE872006FE569 /* Frameworks */ = {
+		F2B0C43715EEE92800FFC79B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F28D936715EEE872006FE569 /* UIKit.framework */,
-				F28D936915EEE872006FE569 /* Foundation.framework */,
-				F28D936B15EEE872006FE569 /* CoreGraphics.framework */,
+				F2B0C43815EEE92800FFC79B /* UIKit.framework */,
+				F2B0C43A15EEE92800FFC79B /* Foundation.framework */,
+				F2B0C43C15EEE92800FFC79B /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F28D936D15EEE872006FE569 /* Janken */ = {
+		F2B0C43E15EEE92800FFC79B /* Janken */ = {
 			isa = PBXGroup;
 			children = (
-				F28D937615EEE872006FE569 /* JankenAppDelegate.h */,
-				F28D937715EEE872006FE569 /* JankenAppDelegate.m */,
-				F28D937915EEE872006FE569 /* MainStoryboard.storyboard */,
-				F28D937C15EEE872006FE569 /* JankenViewController.h */,
-				F28D937D15EEE872006FE569 /* JankenViewController.m */,
-				F28D936E15EEE872006FE569 /* Supporting Files */,
+				F2B0C44715EEE92800FFC79B /* JankenAppDelegate.h */,
+				F2B0C44815EEE92800FFC79B /* JankenAppDelegate.m */,
+				F2B0C44A15EEE92800FFC79B /* MainStoryboard.storyboard */,
+				F2B0C44D15EEE92800FFC79B /* JankenViewController.h */,
+				F2B0C44E15EEE92800FFC79B /* JankenViewController.m */,
+				F2B0C43F15EEE92800FFC79B /* Supporting Files */,
 			);
 			path = Janken;
 			sourceTree = "<group>";
 		};
-		F28D936E15EEE872006FE569 /* Supporting Files */ = {
+		F2B0C43F15EEE92800FFC79B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F28D936F15EEE872006FE569 /* Janken-Info.plist */,
-				F28D937015EEE872006FE569 /* InfoPlist.strings */,
-				F28D937315EEE872006FE569 /* main.m */,
-				F28D937515EEE872006FE569 /* Janken-Prefix.pch */,
+				F2B0C44015EEE92800FFC79B /* Janken-Info.plist */,
+				F2B0C44115EEE92800FFC79B /* InfoPlist.strings */,
+				F2B0C44415EEE92800FFC79B /* main.m */,
+				F2B0C44615EEE92800FFC79B /* Janken-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2B0C45515EEE93900FFC79B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0C45615EEEB4800FFC79B /* pa.png */,
+				F2B0C45715EEEB4800FFC79B /* choki.png */,
+				F2B0C45815EEEB4800FFC79B /* guu.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F28D936215EEE872006FE569 /* Janken */ = {
+		F2B0C43315EEE92800FFC79B /* Janken */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F28D938115EEE872006FE569 /* Build configuration list for PBXNativeTarget "Janken" */;
+			buildConfigurationList = F2B0C45215EEE92800FFC79B /* Build configuration list for PBXNativeTarget "Janken" */;
 			buildPhases = (
-				F28D935F15EEE872006FE569 /* Sources */,
-				F28D936015EEE872006FE569 /* Frameworks */,
-				F28D936115EEE872006FE569 /* Resources */,
+				F2B0C43015EEE92800FFC79B /* Sources */,
+				F2B0C43115EEE92800FFC79B /* Frameworks */,
+				F2B0C43215EEE92800FFC79B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,74 +132,77 @@
 			);
 			name = Janken;
 			productName = Janken;
-			productReference = F28D936315EEE872006FE569 /* Janken.app */;
+			productReference = F2B0C43415EEE92800FFC79B /* Janken.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F28D935A15EEE872006FE569 /* Project object */ = {
+		F2B0C42B15EEE92800FFC79B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Janken;
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "com geeoki";
 			};
-			buildConfigurationList = F28D935D15EEE872006FE569 /* Build configuration list for PBXProject "Janken" */;
+			buildConfigurationList = F2B0C42E15EEE92800FFC79B /* Build configuration list for PBXProject "Janken" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F28D935815EEE872006FE569;
-			productRefGroup = F28D936415EEE872006FE569 /* Products */;
+			mainGroup = F2B0C42915EEE92800FFC79B;
+			productRefGroup = F2B0C43515EEE92800FFC79B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F28D936215EEE872006FE569 /* Janken */,
+				F2B0C43315EEE92800FFC79B /* Janken */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F28D936115EEE872006FE569 /* Resources */ = {
+		F2B0C43215EEE92800FFC79B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28D937215EEE872006FE569 /* InfoPlist.strings in Resources */,
-				F28D937B15EEE872006FE569 /* MainStoryboard.storyboard in Resources */,
+				F2B0C44315EEE92800FFC79B /* InfoPlist.strings in Resources */,
+				F2B0C44C15EEE92800FFC79B /* MainStoryboard.storyboard in Resources */,
+				F2B0C45915EEEB4800FFC79B /* pa.png in Resources */,
+				F2B0C45A15EEEB4800FFC79B /* choki.png in Resources */,
+				F2B0C45B15EEEB4800FFC79B /* guu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F28D935F15EEE872006FE569 /* Sources */ = {
+		F2B0C43015EEE92800FFC79B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28D937415EEE872006FE569 /* main.m in Sources */,
-				F28D937815EEE872006FE569 /* JankenAppDelegate.m in Sources */,
-				F28D937E15EEE872006FE569 /* JankenViewController.m in Sources */,
+				F2B0C44515EEE92800FFC79B /* main.m in Sources */,
+				F2B0C44915EEE92800FFC79B /* JankenAppDelegate.m in Sources */,
+				F2B0C44F15EEE92800FFC79B /* JankenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F28D937015EEE872006FE569 /* InfoPlist.strings */ = {
+		F2B0C44115EEE92800FFC79B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F28D937115EEE872006FE569 /* en */,
+				F2B0C44215EEE92800FFC79B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F28D937915EEE872006FE569 /* MainStoryboard.storyboard */ = {
+		F2B0C44A15EEE92800FFC79B /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F28D937A15EEE872006FE569 /* en */,
+				F2B0C44B15EEE92800FFC79B /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -190,7 +210,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F28D937F15EEE872006FE569 /* Debug */ = {
+		F2B0C45015EEE92800FFC79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		F28D938015EEE872006FE569 /* Release */ = {
+		F2B0C45115EEE92800FFC79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +257,7 @@
 			};
 			name = Release;
 		};
-		F28D938215EEE872006FE569 /* Debug */ = {
+		F2B0C45315EEE92800FFC79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -248,7 +268,7 @@
 			};
 			name = Debug;
 		};
-		F28D938315EEE872006FE569 /* Release */ = {
+		F2B0C45415EEE92800FFC79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -262,24 +282,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F28D935D15EEE872006FE569 /* Build configuration list for PBXProject "Janken" */ = {
+		F2B0C42E15EEE92800FFC79B /* Build configuration list for PBXProject "Janken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F28D937F15EEE872006FE569 /* Debug */,
-				F28D938015EEE872006FE569 /* Release */,
+				F2B0C45015EEE92800FFC79B /* Debug */,
+				F2B0C45115EEE92800FFC79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F28D938115EEE872006FE569 /* Build configuration list for PBXNativeTarget "Janken" */ = {
+		F2B0C45215EEE92800FFC79B /* Build configuration list for PBXNativeTarget "Janken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F28D938215EEE872006FE569 /* Debug */,
-				F28D938315EEE872006FE569 /* Release */,
+				F2B0C45315EEE92800FFC79B /* Debug */,
+				F2B0C45415EEE92800FFC79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F28D935A15EEE872006FE569 /* Project object */;
+	rootObject = F2B0C42B15EEE92800FFC79B /* Project object */;
 }
