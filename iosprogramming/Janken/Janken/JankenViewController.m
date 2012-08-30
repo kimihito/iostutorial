@@ -33,6 +33,18 @@
     // Release any retained subviews of the main view.
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    [self becomeFirstResponder];
+}
+
+-(BOOL)canBecomeFirstResponder{
+    return YES;
+}
+
+-(void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event{
+    [self startJanken:nil];
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
