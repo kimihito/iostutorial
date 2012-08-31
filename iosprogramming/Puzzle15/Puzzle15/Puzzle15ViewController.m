@@ -37,7 +37,12 @@ const int kSize = 70;
         UITapGestureRecognizer *tapper = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap:)];
         [piece addGestureRecognizer:tapper];
         [tapper release];
+        
+        UIPanGestureRecognizer *pangr = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(pan:)];
+        [piece addGestureRecognizer:pangr];
+        [pangr release];
     }
+   
 
 }
 
@@ -69,10 +74,41 @@ const int kSize = 70;
         result = kUp;
     }else if(((tapPos % 4)!=0) &&((tapPos - 1) == empty)){
         result = kLeft;
-    }else if(((tapPos % 4) != 3) && ((tapPos -1) == empty)){
+    }else if(((tapPos % 4) != 3) && ((tapPos + 1) == empty)){
         result = kRight;
     }
     return result;
+}
+
+
+-(void)pan:(UIPanGestureRecognizer *)gesture
+{
+    PieceView *aPiece = (PieceView *)gesture.view;
+    int direction = [self isMovable:aPiece.location];
+    if (direction) {
+        if((gesture.state == UIGestureRecognizerStateChanged)||(gesture.state == UIGestureRecognizerStateEnded)){
+            CGPoint translation = [gesture translationInView:aPiece];
+            if ((direction == kLeft) && (translation.x < 0)) {
+                panning = YES;
+                aPiece.center = CGPointMake(aPiece.center.x +translation.x, aPiece.center.y);
+            }else if((direction == kRight) &&(translation.x > 0)){
+                panning = YES;
+                aPiece.center = CGPointMake(aPiece.center.x+translation.x,aPiece.center.y);
+            }else if((direction == kUp) && (translation.y < 0)){
+                panning = YES;
+                aPiece.center = CGPointMake(aPiece.center.x, aPiece.center.y + translation.y);
+            }else if((direction == kDown) && (translation.y > 0)){
+                panning = YES;
+                aPiece.center = CGPointMake(aPiece.center.x, aPiece.center.y+translation.y);
+            }
+            [gesture setTranslation:CGPointZero inView:aPiece];
+        }
+        
+        if(gesture.state == UIGestureRecognizerStateEnded){
+            if(panning)[self movePiece:aPiece];
+            panning = NO;
+        }
+    }
 }
 
 - (void)viewDidUnload

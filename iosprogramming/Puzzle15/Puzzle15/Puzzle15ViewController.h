@@ -12,6 +12,7 @@
 @interface Puzzle15ViewController : UIViewController{
     NSArray *pieces;
     int empty;
+    BOOL panning;
 }
 @property (retain, nonatomic) IBOutletCollection(PieceView) NSArray *pieces;
 - (IBAction)shufflePieces:(id)sender;
