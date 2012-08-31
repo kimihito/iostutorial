@@ -30,7 +30,7 @@
 		F2B0C4A415EF649900FFC79B /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49515EF649900FFC79B /* 13.gif */; };
 		F2B0C4A515EF649900FFC79B /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49615EF649900FFC79B /* 14.gif */; };
 		F2B0C4A615EF649900FFC79B /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C49715EF649900FFC79B /* 15.gif */; };
-		F2B0C4A915EF64F900FFC79B /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0C4A815EF64F900FFC79B /* PieceView.m */; };
+		F2C0BE1B15F0491F00AB74A0 /* PieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C0BE1A15F0491F00AB74A0 /* PieceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,8 +62,8 @@
 		F2B0C49515EF649900FFC79B /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13.gif; sourceTree = "<group>"; };
 		F2B0C49615EF649900FFC79B /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14.gif; sourceTree = "<group>"; };
 		F2B0C49715EF649900FFC79B /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 15.gif; sourceTree = "<group>"; };
-		F2B0C4A715EF64F900FFC79B /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceView.h; sourceTree = "<group>"; };
-		F2B0C4A815EF64F900FFC79B /* PieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceView.m; sourceTree = "<group>"; };
+		F2C0BE1915F0491F00AB74A0 /* PieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceView.h; sourceTree = "<group>"; };
+		F2C0BE1A15F0491F00AB74A0 /* PieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +117,8 @@
 				F2B0C48015EF646300FFC79B /* Puzzle15ViewController.h */,
 				F2B0C48115EF646300FFC79B /* Puzzle15ViewController.m */,
 				F2B0C47215EF646300FFC79B /* Supporting Files */,
-				F2B0C4A715EF64F900FFC79B /* PieceView.h */,
-				F2B0C4A815EF64F900FFC79B /* PieceView.m */,
+				F2C0BE1915F0491F00AB74A0 /* PieceView.h */,
+				F2C0BE1A15F0491F00AB74A0 /* PieceView.m */,
 			);
 			path = Puzzle15;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				F2B0C47815EF646300FFC79B /* main.m in Sources */,
 				F2B0C47C15EF646300FFC79B /* Puzzle15AppDelegate.m in Sources */,
 				F2B0C48215EF646300FFC79B /* Puzzle15ViewController.m in Sources */,
-				F2B0C4A915EF64F900FFC79B /* PieceView.m in Sources */,
+				F2C0BE1B15F0491F00AB74A0 /* PieceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +352,7 @@
 				F2B0C48715EF646300FFC79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

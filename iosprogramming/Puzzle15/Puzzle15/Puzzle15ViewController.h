@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Puzzle15ViewController : UIViewController
+@interface Puzzle15ViewController : UIViewController{
+    NSArray *pieces;
+    int empty;
+}
+@property (retain, nonatomic) IBOutletCollection(PieceView) NSArray *pieces;
+- (IBAction)shufflePiece:(id)sender;
 
 @end
