@@ -22,7 +22,28 @@
     
     imageView.animationImages = imageArray;
     [imageArray release];
-    imageView.animationDuration = 0.5;
+    imageView.animationDuration = 0.6;
+    [imageView startAnimating];
+    //タイマーを開始
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(move:) userInfo:nil repeats:YES];
+}
+
+-(void)move:(NSTimer *)timer
+{
+    //進行方向に示すスタティック変数
+    static int direction = 1;
+    int parentWidth = self.view.frame.size.width;
+    
+    CGRect frame = imageView.frame;
+    int x = frame.origin.x;
+    
+    //端まで行ったら方向を反転させる
+    if((x > (parentWidth - frame.size.width) ) ||(x < 0)) {
+        direction = direction * -1;
+    }
+    frame.origin.x = x + direction * 2;
+    imageView.frame = frame;
+    
 }
 
 - (void)viewDidUnload
