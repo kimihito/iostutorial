@@ -94,7 +94,7 @@ const int kSize = 70;
     [pieces release];
     [super dealloc];
 }
-- (IBAction)shufflePiece:(id)sender {
+- (IBAction)shufflePieces:(id)sender {
     for(int i = 0; i < 100; i++){
         [self movePiece:[pieces objectAtIndex:rand() % pieces.count]];
     }

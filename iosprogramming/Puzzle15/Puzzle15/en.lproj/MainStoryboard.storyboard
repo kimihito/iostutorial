@@ -82,7 +82,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JKR-3a-jhY">
-                                <rect key="frame" x="123" y="352" width="75" height="37"/>
+                                <rect key="frame" x="123" y="363" width="75" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Shuffle">
@@ -93,14 +93,13 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="shufflePiece:" destination="2" eventType="touchUpInside" id="VGy-bm-XgQ"/>
+                                    <action selector="shufflePieces:" destination="2" eventType="touchUpInside" id="9mj-2H-3lP"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.87437806737307044" blue="0.69860356504361221" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="shufflePiece" destination="JKR-3a-jhY" id="ePl-gu-oZl"/>
                         <outletCollection property="pieces" destination="zt9-4g-ysm" id="87u-Hr-Agf"/>
                         <outletCollection property="pieces" destination="prn-ap-Xyg" id="yst-Pu-3Ut"/>
                         <outletCollection property="pieces" destination="Ktp-1w-TLk" id="EKU-Uc-3tD"/>
@@ -146,7 +145,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Puzzle15ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="shufflePiece:"/>
-                <relationship kind="outletCollection" name="Pieces" candidateClass="PieceView"/>
+                <relationship kind="action" name="shufflePieces:"/>
                 <relationship kind="outletCollection" name="pieces" candidateClass="PieceView"/>
             </relationships>
         </class>

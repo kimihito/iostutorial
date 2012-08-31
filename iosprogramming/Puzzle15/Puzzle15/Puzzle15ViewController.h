@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PieceView.h"
 
 @interface Puzzle15ViewController : UIViewController{
     NSArray *pieces;
     int empty;
 }
 @property (retain, nonatomic) IBOutletCollection(PieceView) NSArray *pieces;
-- (IBAction)shufflePiece:(id)sender;
+- (IBAction)shufflePieces:(id)sender;
 
 @end
