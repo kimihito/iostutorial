@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2826AED15F11E31004D26D6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826AEC15F11E31004D26D6 /* AudioToolbox.framework */; };
+		F2826B1515F11E52004D26D6 /* guu.aif in Resources */ = {isa = PBXBuildFile; fileRef = F2826AF515F11E52004D26D6 /* guu.aif */; };
+		F2826B1A15F11E52004D26D6 /* choki.aif in Resources */ = {isa = PBXBuildFile; fileRef = F2826B0115F11E52004D26D6 /* choki.aif */; };
+		F2826B1F15F11E52004D26D6 /* pa.aif in Resources */ = {isa = PBXBuildFile; fileRef = F2826B0D15F11E52004D26D6 /* pa.aif */; };
 		F2B0C43915EEE92800FFC79B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C43815EEE92800FFC79B /* UIKit.framework */; };
 		F2B0C43B15EEE92800FFC79B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C43A15EEE92800FFC79B /* Foundation.framework */; };
 		F2B0C43D15EEE92800FFC79B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0C43C15EEE92800FFC79B /* CoreGraphics.framework */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2826AEC15F11E31004D26D6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F2826AF515F11E52004D26D6 /* guu.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = guu.aif; path = ../../../../Downloads/guu.aif/Media/guu.aif; sourceTree = "<group>"; };
+		F2826B0115F11E52004D26D6 /* choki.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = choki.aif; path = ../../../../Downloads/choki.aif/Media/choki.aif; sourceTree = "<group>"; };
+		F2826B0D15F11E52004D26D6 /* pa.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = pa.aif; path = ../../../../Downloads/pa.aif/Media/pa.aif; sourceTree = "<group>"; };
 		F2B0C43415EEE92800FFC79B /* Janken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B0C43815EEE92800FFC79B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2B0C43A15EEE92800FFC79B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2826AED15F11E31004D26D6 /* AudioToolbox.framework in Frameworks */,
 				F2B0C43915EEE92800FFC79B /* UIKit.framework in Frameworks */,
 				F2B0C43B15EEE92800FFC79B /* Foundation.framework in Frameworks */,
 				F2B0C43D15EEE92800FFC79B /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2826AEF15F11E46004D26D6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B0D15F11E52004D26D6 /* pa.aif */,
+				F2826B0115F11E52004D26D6 /* choki.aif */,
+				F2826AF515F11E52004D26D6 /* guu.aif */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		F2B0C42915EEE92800FFC79B = {
 			isa = PBXGroup;
 			children = (
+				F2826AEF15F11E46004D26D6 /* Sounds */,
 				F2B0C45515EEE93900FFC79B /* images */,
 				F2B0C43E15EEE92800FFC79B /* Janken */,
 				F2B0C43715EEE92800FFC79B /* Frameworks */,
@@ -74,6 +94,7 @@
 		F2B0C43715EEE92800FFC79B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2826AEC15F11E31004D26D6 /* AudioToolbox.framework */,
 				F2B0C43815EEE92800FFC79B /* UIKit.framework */,
 				F2B0C43A15EEE92800FFC79B /* Foundation.framework */,
 				F2B0C43C15EEE92800FFC79B /* CoreGraphics.framework */,
@@ -172,6 +193,9 @@
 				F2B0C45915EEEB4800FFC79B /* pa.png in Resources */,
 				F2B0C45A15EEEB4800FFC79B /* choki.png in Resources */,
 				F2B0C45B15EEEB4800FFC79B /* guu.png in Resources */,
+				F2826B1515F11E52004D26D6 /* guu.aif in Resources */,
+				F2826B1A15F11E52004D26D6 /* choki.aif in Resources */,
+				F2826B1F15F11E52004D26D6 /* pa.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +322,7 @@
 				F2B0C45415EEE92800FFC79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

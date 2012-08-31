@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioServices.h>
 
 @interface JankenViewController : UIViewController{
     UIImageView *myImageView;
     NSArray *images;
+    
+    SystemSoundID soundChoki;
+    SystemSoundID soundGuu;
+    SystemSoundID soundPa;
 }
 @property(retain)NSArray *images;
 @property (retain, nonatomic) IBOutlet UIImageView *myImageView;
