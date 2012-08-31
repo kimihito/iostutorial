@@ -46,6 +46,25 @@
     
 }
 
+
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    //タッチした場所の取得
+    UITouch *aTouch = [touches anyObject];
+    CGPoint point = [aTouch locationInView:self.view];
+    
+    UIViewAnimationOptions options = UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionAllowUserInteraction| UIViewAnimationOptionCurveEaseOut;
+    //アニメーションの実行
+    [UIView animateWithDuration:2.0 delay:0.0 options:options animations:^{
+        if([imageView isAnimating]){
+            [imageView stopAnimating];
+        }
+        imageView.center = point;
+    }
+                     completion:^(BOOL finished){
+        [imageView startAnimating];
+                     }];
+}
+
 - (void)viewDidUnload
 {
     [self setImageView:nil];
