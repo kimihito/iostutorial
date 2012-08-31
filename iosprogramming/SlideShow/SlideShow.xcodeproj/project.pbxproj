@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2826AC115F0E724004D26D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826AC015F0E724004D26D6 /* UIKit.framework */; };
+		F2826AC315F0E724004D26D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826AC215F0E724004D26D6 /* Foundation.framework */; };
+		F2826AC515F0E724004D26D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826AC415F0E724004D26D6 /* CoreGraphics.framework */; };
+		F2826ACB15F0E724004D26D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2826AC915F0E724004D26D6 /* InfoPlist.strings */; };
+		F2826ACD15F0E724004D26D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826ACC15F0E724004D26D6 /* main.m */; };
+		F2826AD115F0E724004D26D6 /* SlideShowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826AD015F0E724004D26D6 /* SlideShowAppDelegate.m */; };
+		F2826AD415F0E724004D26D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2826AD215F0E724004D26D6 /* MainStoryboard.storyboard */; };
+		F2826AD715F0E724004D26D6 /* SlideShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826AD615F0E724004D26D6 /* SlideShowViewController.m */; };
+		F2826AE315F0E75D004D26D6 /* egg-5.png in Resources */ = {isa = PBXBuildFile; fileRef = F2826ADE15F0E75D004D26D6 /* egg-5.png */; };
+		F2826AE415F0E75D004D26D6 /* egg-4.png in Resources */ = {isa = PBXBuildFile; fileRef = F2826ADF15F0E75D004D26D6 /* egg-4.png */; };
+		F2826AE515F0E75D004D26D6 /* egg-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F2826AE015F0E75D004D26D6 /* egg-3.png */; };
+		F2826AE615F0E75D004D26D6 /* egg-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F2826AE115F0E75D004D26D6 /* egg-2.png */; };
+		F2826AE715F0E75D004D26D6 /* egg-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2826AE215F0E75D004D26D6 /* egg-1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2826ABC15F0E724004D26D6 /* SlideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2826AC015F0E724004D26D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2826AC215F0E724004D26D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2826AC415F0E724004D26D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2826AC815F0E724004D26D6 /* SlideShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideShow-Info.plist"; sourceTree = "<group>"; };
+		F2826ACA15F0E724004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2826ACC15F0E724004D26D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2826ACE15F0E724004D26D6 /* SlideShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideShow-Prefix.pch"; sourceTree = "<group>"; };
+		F2826ACF15F0E724004D26D6 /* SlideShowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideShowAppDelegate.h; sourceTree = "<group>"; };
+		F2826AD015F0E724004D26D6 /* SlideShowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideShowAppDelegate.m; sourceTree = "<group>"; };
+		F2826AD315F0E724004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2826AD515F0E724004D26D6 /* SlideShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideShowViewController.h; sourceTree = "<group>"; };
+		F2826AD615F0E724004D26D6 /* SlideShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideShowViewController.m; sourceTree = "<group>"; };
+		F2826ADE15F0E75D004D26D6 /* egg-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg-5.png"; sourceTree = "<group>"; };
+		F2826ADF15F0E75D004D26D6 /* egg-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg-4.png"; sourceTree = "<group>"; };
+		F2826AE015F0E75D004D26D6 /* egg-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg-3.png"; sourceTree = "<group>"; };
+		F2826AE115F0E75D004D26D6 /* egg-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg-2.png"; sourceTree = "<group>"; };
+		F2826AE215F0E75D004D26D6 /* egg-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg-1.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2826AB915F0E724004D26D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826AC115F0E724004D26D6 /* UIKit.framework in Frameworks */,
+				F2826AC315F0E724004D26D6 /* Foundation.framework in Frameworks */,
+				F2826AC515F0E724004D26D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2826AB115F0E724004D26D6 = {
+			isa = PBXGroup;
+			children = (
+				F2826ADD15F0E747004D26D6 /* images */,
+				F2826AC615F0E724004D26D6 /* SlideShow */,
+				F2826ABF15F0E724004D26D6 /* Frameworks */,
+				F2826ABD15F0E724004D26D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2826ABD15F0E724004D26D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2826ABC15F0E724004D26D6 /* SlideShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2826ABF15F0E724004D26D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2826AC015F0E724004D26D6 /* UIKit.framework */,
+				F2826AC215F0E724004D26D6 /* Foundation.framework */,
+				F2826AC415F0E724004D26D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2826AC615F0E724004D26D6 /* SlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				F2826ACF15F0E724004D26D6 /* SlideShowAppDelegate.h */,
+				F2826AD015F0E724004D26D6 /* SlideShowAppDelegate.m */,
+				F2826AD215F0E724004D26D6 /* MainStoryboard.storyboard */,
+				F2826AD515F0E724004D26D6 /* SlideShowViewController.h */,
+				F2826AD615F0E724004D26D6 /* SlideShowViewController.m */,
+				F2826AC715F0E724004D26D6 /* Supporting Files */,
+			);
+			path = SlideShow;
+			sourceTree = "<group>";
+		};
+		F2826AC715F0E724004D26D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2826AC815F0E724004D26D6 /* SlideShow-Info.plist */,
+				F2826AC915F0E724004D26D6 /* InfoPlist.strings */,
+				F2826ACC15F0E724004D26D6 /* main.m */,
+				F2826ACE15F0E724004D26D6 /* SlideShow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2826ADD15F0E747004D26D6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F2826ADE15F0E75D004D26D6 /* egg-5.png */,
+				F2826ADF15F0E75D004D26D6 /* egg-4.png */,
+				F2826AE015F0E75D004D26D6 /* egg-3.png */,
+				F2826AE115F0E75D004D26D6 /* egg-2.png */,
+				F2826AE215F0E75D004D26D6 /* egg-1.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2826ABB15F0E724004D26D6 /* SlideShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2826ADA15F0E724004D26D6 /* Build configuration list for PBXNativeTarget "SlideShow" */;
+			buildPhases = (
+				F2826AB815F0E724004D26D6 /* Sources */,
+				F2826AB915F0E724004D26D6 /* Frameworks */,
+				F2826ABA15F0E724004D26D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideShow;
+			productName = SlideShow;
+			productReference = F2826ABC15F0E724004D26D6 /* SlideShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2826AB315F0E724004D26D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SlideShow;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F2826AB615F0E724004D26D6 /* Build configuration list for PBXProject "SlideShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2826AB115F0E724004D26D6;
+			productRefGroup = F2826ABD15F0E724004D26D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2826ABB15F0E724004D26D6 /* SlideShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2826ABA15F0E724004D26D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826ACB15F0E724004D26D6 /* InfoPlist.strings in Resources */,
+				F2826AD415F0E724004D26D6 /* MainStoryboard.storyboard in Resources */,
+				F2826AE315F0E75D004D26D6 /* egg-5.png in Resources */,
+				F2826AE415F0E75D004D26D6 /* egg-4.png in Resources */,
+				F2826AE515F0E75D004D26D6 /* egg-3.png in Resources */,
+				F2826AE615F0E75D004D26D6 /* egg-2.png in Resources */,
+				F2826AE715F0E75D004D26D6 /* egg-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2826AB815F0E724004D26D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826ACD15F0E724004D26D6 /* main.m in Sources */,
+				F2826AD115F0E724004D26D6 /* SlideShowAppDelegate.m in Sources */,
+				F2826AD715F0E724004D26D6 /* SlideShowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2826AC915F0E724004D26D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826ACA15F0E724004D26D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2826AD215F0E724004D26D6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826AD315F0E724004D26D6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2826AD815F0E724004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2826AD915F0E724004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2826ADB15F0E724004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideShow/SlideShow-Prefix.pch";
+				INFOPLIST_FILE = "SlideShow/SlideShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2826ADC15F0E724004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideShow/SlideShow-Prefix.pch";
+				INFOPLIST_FILE = "SlideShow/SlideShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2826AB615F0E724004D26D6 /* Build configuration list for PBXProject "SlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826AD815F0E724004D26D6 /* Debug */,
+				F2826AD915F0E724004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2826ADA15F0E724004D26D6 /* Build configuration list for PBXNativeTarget "SlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826ADB15F0E724004D26D6 /* Debug */,
+				F2826ADC15F0E724004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2826AB315F0E724004D26D6 /* Project object */;
+}
