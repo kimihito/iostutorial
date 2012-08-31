@@ -13,6 +13,8 @@
 @end
 
 @implementation SlideShowViewController
+@synthesize playButton;
+@synthesize pauseButton;
 @synthesize imageView;
 @synthesize images;
 
@@ -34,6 +36,9 @@
 {
     [self setImageView:nil];
     [self setImages:nil];
+    [self setPauseButton:nil];
+    [self setPlayButton:nil];
+    [self setNextButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -62,9 +67,30 @@
 }
 
 
+
 - (void)dealloc {
     [imageView release];
     [images release];
+    [pauseButton release];
+    [playButton release];
+    [nextButton release];
+    [nextButton release];
     [super dealloc];
+}
+- (IBAction)startShow:(id)sender {
+    if(![timer isValid]){
+        timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(nextSlide:) userInfo:nil repeats:YES];
+    }
+    
+    playButton.enabled = NO;
+    pauseButton.enabled = YES;
+}
+- (IBAction)pauseShow:(id)sender {
+    if([timer isValid]){
+        [timer invalidate];
+    }
+    timer = nil;
+    playButton.enabled = YES;
+    pauseButton.enabled = NO;
 }
 @end

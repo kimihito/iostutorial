@@ -14,11 +14,22 @@
     
     UIImageView *imageView;
     UIToolbar *nextButton;
+    
+    NSTimer *timer;
 }
+
+
 
 @property (retain) NSMutableArray *images;
 @property (retain, nonatomic) IBOutlet UIImageView *imageView;
 
+@property (retain, nonatomic) IBOutlet UIBarButtonItem *nextButton;
+
 - (IBAction)nextSlide:(id)sender;
+@property (retain, nonatomic) IBOutlet UIBarButtonItem *playButton;
+- (IBAction)startShow:(id)sender;
+
+@property (retain, nonatomic) IBOutlet UIBarButtonItem *pauseButton;
+- (IBAction)pauseShow:(id)sender;
 
 @end

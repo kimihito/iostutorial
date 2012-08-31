@@ -23,6 +23,17 @@
                                             <action selector="nextSlide:" destination="2" id="GrA-YL-UU7"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem width="175" style="plain" systemItem="fixedSpace" id="cbN-hz-wmQ"/>
+                                    <barButtonItem systemItem="play" id="6m4-ye-GrE">
+                                        <connections>
+                                            <action selector="startShow:" destination="2" id="Jr0-yp-Cza"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="pause" id="Ih4-J5-7PA">
+                                        <connections>
+                                            <action selector="pauseShow:" destination="2" id="aH7-Nj-HRY"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <view contentMode="scaleToFill" id="Buq-ZQ-vPk">
@@ -41,20 +52,14 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="KZg-RJ-6w1" id="xV9-SF-hY7"/>
+                        <outlet property="nextButton" destination="7ZJ-fU-o3j" id="l2u-e7-lR7"/>
+                        <outlet property="pauseButton" destination="Ih4-J5-7PA" id="R2b-LS-H4d"/>
+                        <outlet property="playButton" destination="6m4-ye-GrE" id="Scx-NG-BEg"/>
                     </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="SlideShowViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SlideShowViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextSlide:"/>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
