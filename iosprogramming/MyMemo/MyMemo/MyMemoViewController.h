@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyMemoViewController : UIViewController
+@interface MyMemoViewController : UIViewController{
+    UITextView *myTextView;
+}
 @property (retain, nonatomic) IBOutlet UITextView *myTextView;
 - (IBAction)done:(id)sender;
 

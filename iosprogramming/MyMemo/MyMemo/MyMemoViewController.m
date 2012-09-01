@@ -20,7 +20,8 @@
     [super viewDidLoad];
     //ファイルをロードする
     [self loadFile];
-}
+    
+    }
 
 - (void)viewDidUnload
 {
@@ -38,6 +39,8 @@
     [myTextView release];
     [super dealloc];
 }
+
+
 - (IBAction)done:(id)sender {
     //キーボードを隠す
     [self.view endEditing:YES];

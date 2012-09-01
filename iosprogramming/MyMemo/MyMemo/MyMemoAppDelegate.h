@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MyMemoViewController;
 
 @interface MyMemoAppDelegate : UIResponder <UIApplicationDelegate>
 
