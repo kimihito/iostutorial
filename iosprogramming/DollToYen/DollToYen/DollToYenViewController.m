@@ -20,7 +20,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    dollText.delegate = self;
+    rateText.delegate = self;
+    
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [self.view endEditing:YES];
+    return YES;
 }
 
 - (void)viewDidUnload

@@ -19,9 +19,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
-                                <connections>
-                                    <action selector="calc:" destination="2" eventType="editingDidEndOnExit" id="9Wo-FJ-n1B"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ドル:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="dKL-Lf-3m9">
                                 <rect key="frame" x="54" y="51" width="42" height="21"/>
@@ -83,17 +80,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="DollToYenViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DollToYenViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="calc:"/>
-                <relationship kind="outlet" name="dollText" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="rateText" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="yenLabel" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

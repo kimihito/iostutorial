@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DollToYenViewController : UIViewController
+@interface DollToYenViewController : UIViewController<UITextFieldDelegate>{
+    
+}
 @property (retain, nonatomic) IBOutlet UITextField *dollText;
 
 @property (retain, nonatomic) IBOutlet UITextField *rateText;
