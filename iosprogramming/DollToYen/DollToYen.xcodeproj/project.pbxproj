@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2826BC915F1D6F4004D26D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826BC815F1D6F4004D26D6 /* UIKit.framework */; };
+		F2826BCB15F1D6F4004D26D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826BCA15F1D6F4004D26D6 /* Foundation.framework */; };
+		F2826BCD15F1D6F4004D26D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826BCC15F1D6F4004D26D6 /* CoreGraphics.framework */; };
+		F2826BD315F1D6F4004D26D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2826BD115F1D6F4004D26D6 /* InfoPlist.strings */; };
+		F2826BD515F1D6F4004D26D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826BD415F1D6F4004D26D6 /* main.m */; };
+		F2826BD915F1D6F4004D26D6 /* DollToYenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826BD815F1D6F4004D26D6 /* DollToYenAppDelegate.m */; };
+		F2826BDC15F1D6F4004D26D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2826BDA15F1D6F4004D26D6 /* MainStoryboard.storyboard */; };
+		F2826BDF15F1D6F4004D26D6 /* DollToYenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826BDE15F1D6F4004D26D6 /* DollToYenViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2826BC415F1D6F4004D26D6 /* DollToYen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollToYen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2826BC815F1D6F4004D26D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2826BCA15F1D6F4004D26D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2826BCC15F1D6F4004D26D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2826BD015F1D6F4004D26D6 /* DollToYen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DollToYen-Info.plist"; sourceTree = "<group>"; };
+		F2826BD215F1D6F4004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2826BD415F1D6F4004D26D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2826BD615F1D6F4004D26D6 /* DollToYen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DollToYen-Prefix.pch"; sourceTree = "<group>"; };
+		F2826BD715F1D6F4004D26D6 /* DollToYenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DollToYenAppDelegate.h; sourceTree = "<group>"; };
+		F2826BD815F1D6F4004D26D6 /* DollToYenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DollToYenAppDelegate.m; sourceTree = "<group>"; };
+		F2826BDB15F1D6F4004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2826BDD15F1D6F4004D26D6 /* DollToYenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DollToYenViewController.h; sourceTree = "<group>"; };
+		F2826BDE15F1D6F4004D26D6 /* DollToYenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DollToYenViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2826BC115F1D6F4004D26D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826BC915F1D6F4004D26D6 /* UIKit.framework in Frameworks */,
+				F2826BCB15F1D6F4004D26D6 /* Foundation.framework in Frameworks */,
+				F2826BCD15F1D6F4004D26D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2826BB915F1D6F4004D26D6 = {
+			isa = PBXGroup;
+			children = (
+				F2826BCE15F1D6F4004D26D6 /* DollToYen */,
+				F2826BC715F1D6F4004D26D6 /* Frameworks */,
+				F2826BC515F1D6F4004D26D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2826BC515F1D6F4004D26D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BC415F1D6F4004D26D6 /* DollToYen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2826BC715F1D6F4004D26D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BC815F1D6F4004D26D6 /* UIKit.framework */,
+				F2826BCA15F1D6F4004D26D6 /* Foundation.framework */,
+				F2826BCC15F1D6F4004D26D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2826BCE15F1D6F4004D26D6 /* DollToYen */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BD715F1D6F4004D26D6 /* DollToYenAppDelegate.h */,
+				F2826BD815F1D6F4004D26D6 /* DollToYenAppDelegate.m */,
+				F2826BDA15F1D6F4004D26D6 /* MainStoryboard.storyboard */,
+				F2826BDD15F1D6F4004D26D6 /* DollToYenViewController.h */,
+				F2826BDE15F1D6F4004D26D6 /* DollToYenViewController.m */,
+				F2826BCF15F1D6F4004D26D6 /* Supporting Files */,
+			);
+			path = DollToYen;
+			sourceTree = "<group>";
+		};
+		F2826BCF15F1D6F4004D26D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BD015F1D6F4004D26D6 /* DollToYen-Info.plist */,
+				F2826BD115F1D6F4004D26D6 /* InfoPlist.strings */,
+				F2826BD415F1D6F4004D26D6 /* main.m */,
+				F2826BD615F1D6F4004D26D6 /* DollToYen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2826BC315F1D6F4004D26D6 /* DollToYen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2826BE215F1D6F4004D26D6 /* Build configuration list for PBXNativeTarget "DollToYen" */;
+			buildPhases = (
+				F2826BC015F1D6F4004D26D6 /* Sources */,
+				F2826BC115F1D6F4004D26D6 /* Frameworks */,
+				F2826BC215F1D6F4004D26D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DollToYen;
+			productName = DollToYen;
+			productReference = F2826BC415F1D6F4004D26D6 /* DollToYen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2826BBB15F1D6F4004D26D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DollToYen;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F2826BBE15F1D6F4004D26D6 /* Build configuration list for PBXProject "DollToYen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2826BB915F1D6F4004D26D6;
+			productRefGroup = F2826BC515F1D6F4004D26D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2826BC315F1D6F4004D26D6 /* DollToYen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2826BC215F1D6F4004D26D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826BD315F1D6F4004D26D6 /* InfoPlist.strings in Resources */,
+				F2826BDC15F1D6F4004D26D6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2826BC015F1D6F4004D26D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826BD515F1D6F4004D26D6 /* main.m in Sources */,
+				F2826BD915F1D6F4004D26D6 /* DollToYenAppDelegate.m in Sources */,
+				F2826BDF15F1D6F4004D26D6 /* DollToYenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2826BD115F1D6F4004D26D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826BD215F1D6F4004D26D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2826BDA15F1D6F4004D26D6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826BDB15F1D6F4004D26D6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2826BE015F1D6F4004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2826BE115F1D6F4004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2826BE315F1D6F4004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DollToYen/DollToYen-Prefix.pch";
+				INFOPLIST_FILE = "DollToYen/DollToYen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2826BE415F1D6F4004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DollToYen/DollToYen-Prefix.pch";
+				INFOPLIST_FILE = "DollToYen/DollToYen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2826BBE15F1D6F4004D26D6 /* Build configuration list for PBXProject "DollToYen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826BE015F1D6F4004D26D6 /* Debug */,
+				F2826BE115F1D6F4004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2826BE215F1D6F4004D26D6 /* Build configuration list for PBXNativeTarget "DollToYen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826BE315F1D6F4004D26D6 /* Debug */,
+				F2826BE415F1D6F4004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2826BBB15F1D6F4004D26D6 /* Project object */;
+}
