@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2826B6215F17F53004D26D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826B6115F17F53004D26D6 /* UIKit.framework */; };
+		F2826B6415F17F53004D26D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826B6315F17F53004D26D6 /* Foundation.framework */; };
+		F2826B6615F17F53004D26D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826B6515F17F53004D26D6 /* CoreGraphics.framework */; };
+		F2826B6C15F17F53004D26D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2826B6A15F17F53004D26D6 /* InfoPlist.strings */; };
+		F2826B6E15F17F53004D26D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826B6D15F17F53004D26D6 /* main.m */; };
+		F2826B7215F17F53004D26D6 /* GStampAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826B7115F17F53004D26D6 /* GStampAppDelegate.m */; };
+		F2826B7515F17F53004D26D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2826B7315F17F53004D26D6 /* MainStoryboard.storyboard */; };
+		F2826B7815F17F53004D26D6 /* GStampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826B7715F17F53004D26D6 /* GStampViewController.m */; };
+		F2826B8015F17F88004D26D6 /* pa.png in Resources */ = {isa = PBXBuildFile; fileRef = F2826B7F15F17F88004D26D6 /* pa.png */; };
+		F2826B8315F17FA8004D26D6 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826B8215F17FA8004D26D6 /* MyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2826B5D15F17F53004D26D6 /* GStamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GStamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2826B6115F17F53004D26D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2826B6315F17F53004D26D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2826B6515F17F53004D26D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2826B6915F17F53004D26D6 /* GStamp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GStamp-Info.plist"; sourceTree = "<group>"; };
+		F2826B6B15F17F53004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2826B6D15F17F53004D26D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2826B6F15F17F53004D26D6 /* GStamp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GStamp-Prefix.pch"; sourceTree = "<group>"; };
+		F2826B7015F17F53004D26D6 /* GStampAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GStampAppDelegate.h; sourceTree = "<group>"; };
+		F2826B7115F17F53004D26D6 /* GStampAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GStampAppDelegate.m; sourceTree = "<group>"; };
+		F2826B7415F17F53004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2826B7615F17F53004D26D6 /* GStampViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GStampViewController.h; sourceTree = "<group>"; };
+		F2826B7715F17F53004D26D6 /* GStampViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GStampViewController.m; sourceTree = "<group>"; };
+		F2826B7F15F17F88004D26D6 /* pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pa.png; sourceTree = "<group>"; };
+		F2826B8115F17FA8004D26D6 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		F2826B8215F17FA8004D26D6 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2826B5A15F17F53004D26D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826B6215F17F53004D26D6 /* UIKit.framework in Frameworks */,
+				F2826B6415F17F53004D26D6 /* Foundation.framework in Frameworks */,
+				F2826B6615F17F53004D26D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2826B5215F17F53004D26D6 = {
+			isa = PBXGroup;
+			children = (
+				F2826B8115F17FA8004D26D6 /* MyView.h */,
+				F2826B8215F17FA8004D26D6 /* MyView.m */,
+				F2826B7E15F17F5B004D26D6 /* images */,
+				F2826B6715F17F53004D26D6 /* GStamp */,
+				F2826B6015F17F53004D26D6 /* Frameworks */,
+				F2826B5E15F17F53004D26D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2826B5E15F17F53004D26D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B5D15F17F53004D26D6 /* GStamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2826B6015F17F53004D26D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B6115F17F53004D26D6 /* UIKit.framework */,
+				F2826B6315F17F53004D26D6 /* Foundation.framework */,
+				F2826B6515F17F53004D26D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2826B6715F17F53004D26D6 /* GStamp */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B7015F17F53004D26D6 /* GStampAppDelegate.h */,
+				F2826B7115F17F53004D26D6 /* GStampAppDelegate.m */,
+				F2826B7315F17F53004D26D6 /* MainStoryboard.storyboard */,
+				F2826B7615F17F53004D26D6 /* GStampViewController.h */,
+				F2826B7715F17F53004D26D6 /* GStampViewController.m */,
+				F2826B6815F17F53004D26D6 /* Supporting Files */,
+			);
+			path = GStamp;
+			sourceTree = "<group>";
+		};
+		F2826B6815F17F53004D26D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B6915F17F53004D26D6 /* GStamp-Info.plist */,
+				F2826B6A15F17F53004D26D6 /* InfoPlist.strings */,
+				F2826B6D15F17F53004D26D6 /* main.m */,
+				F2826B6F15F17F53004D26D6 /* GStamp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2826B7E15F17F5B004D26D6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B7F15F17F88004D26D6 /* pa.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2826B5C15F17F53004D26D6 /* GStamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2826B7B15F17F53004D26D6 /* Build configuration list for PBXNativeTarget "GStamp" */;
+			buildPhases = (
+				F2826B5915F17F53004D26D6 /* Sources */,
+				F2826B5A15F17F53004D26D6 /* Frameworks */,
+				F2826B5B15F17F53004D26D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GStamp;
+			productName = GStamp;
+			productReference = F2826B5D15F17F53004D26D6 /* GStamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2826B5415F17F53004D26D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GStamp;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F2826B5715F17F53004D26D6 /* Build configuration list for PBXProject "GStamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2826B5215F17F53004D26D6;
+			productRefGroup = F2826B5E15F17F53004D26D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2826B5C15F17F53004D26D6 /* GStamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2826B5B15F17F53004D26D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826B6C15F17F53004D26D6 /* InfoPlist.strings in Resources */,
+				F2826B7515F17F53004D26D6 /* MainStoryboard.storyboard in Resources */,
+				F2826B8015F17F88004D26D6 /* pa.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2826B5915F17F53004D26D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826B6E15F17F53004D26D6 /* main.m in Sources */,
+				F2826B7215F17F53004D26D6 /* GStampAppDelegate.m in Sources */,
+				F2826B7815F17F53004D26D6 /* GStampViewController.m in Sources */,
+				F2826B8315F17FA8004D26D6 /* MyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2826B6A15F17F53004D26D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826B6B15F17F53004D26D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2826B7315F17F53004D26D6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826B7415F17F53004D26D6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2826B7915F17F53004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2826B7A15F17F53004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2826B7C15F17F53004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GStamp/GStamp-Prefix.pch";
+				INFOPLIST_FILE = "GStamp/GStamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2826B7D15F17F53004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GStamp/GStamp-Prefix.pch";
+				INFOPLIST_FILE = "GStamp/GStamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2826B5715F17F53004D26D6 /* Build configuration list for PBXProject "GStamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826B7915F17F53004D26D6 /* Debug */,
+				F2826B7A15F17F53004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2826B7B15F17F53004D26D6 /* Build configuration list for PBXNativeTarget "GStamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826B7C15F17F53004D26D6 /* Debug */,
+				F2826B7D15F17F53004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2826B5415F17F53004D26D6 /* Project object */;
+}
