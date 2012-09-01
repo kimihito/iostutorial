@@ -20,6 +20,44 @@
     [super viewDidLoad];
 	//ファイルをロードする
     [self loadFile];
+    
+    //システム標準の通知センターを取得
+    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+    
+    //キーボードが表示されたらkeyboardDidShow:メソッドを実行
+    [notificationCenter addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
+    
+    //キーボードが隠れたらkeyboardDidHide:メソッドを実行
+    [notificationCenter addObserver:self selector:@selector(keyboardDidHide:)name:UIKeyboardDidHideNotification object:nil];
+}
+
+-(void)keyboardDidShow:(NSNotification *)notification
+{
+    //通知情報を取り出す
+    NSDictionary* info = [notification userInfo];
+    //キーボードのサイズを取得する
+    NSValue* aValue = [info objectForKey:UIKeyboardFrameBeginUserInfoKey];
+    CGRect kbFrame = [aValue CGRectValue];
+    
+    //テキストビューの高さをキーボードのサイズ分縮小する
+    CGRect textFrame = myTextView.frame;
+    textFrame.size.height -= kbFrame.size.height;
+    myTextView.frame = textFrame;
+}
+
+//キーボードが隠れたらテキストビューの高さを戻す
+-(void)keyboardDidHide:(NSNotification *)notification
+{
+    //通知情報を取り出す
+    NSDictionary* info = [notification userInfo];
+    //キーボードのサイズを取得する
+    NSValue* aValue = [info objectForKey:UIKeyboardFrameBeginUserInfoKey];
+    CGRect kbFrame = [aValue CGRectValue];
+    
+    //テキストビューの高さをもとに戻す
+    CGRect textFrame = myTextView.frame;
+    textFrame.size.height += kbFrame.size.height;
+    myTextView.frame = textFrame;
 }
 
 - (void)viewDidUnload
