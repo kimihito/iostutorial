@@ -7,9 +7,10 @@
 //
 
 #import "MyMemoAppDelegate.h"
-#import "MyMemoViewController.h"
+
 @implementation MyMemoAppDelegate
 
+@synthesize viewController=_viewController;
 - (void)dealloc
 {
     [_window release];

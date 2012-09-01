@@ -13,4 +13,5 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, retain) IBOutlet MyMemoViewController *viewController;
 @end
