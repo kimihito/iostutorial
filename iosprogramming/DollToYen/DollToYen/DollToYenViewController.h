@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#define kDoll @"DollKey"
+#define kRate @"RateKey"
 
 @interface DollToYenViewController : UIViewController<UITextFieldDelegate>{
     
@@ -19,4 +21,5 @@
 
 - (IBAction)backgroundTapped:(id)sender;
 
+-(void)saveDefault;
 @end

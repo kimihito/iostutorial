@@ -17,13 +17,32 @@
 @synthesize dollText;
 @synthesize rateText;
 
+
++(void)initialize{
+    //キーと初期値のペアの辞書を生成
+    NSMutableDictionary *defaultValues = [NSMutableDictionary dictionaryWithCapacity:2];
+    //ドルの初期値を10に
+    [defaultValues setValue:@"10" forKey:kDoll];
+    //レートの初期値を84.5に
+    [defaultValues setValue:@"84.5" forKey:kRate];
+    
+    NSUserDefaults *userDefaults =  [NSUserDefaults standardUserDefaults];
+    //初期値を設定
+    [userDefaults registerDefaults:defaultValues];  
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     dollText.delegate = self;
     rateText.delegate = self;
     
-	// Do any additional setup after loading the view, typically from a nib.
+    //ユーザーデフォルトの読み込み
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSString *dollStr = [userDefaults stringForKey:kDoll];
+    NSString *rateStr = [userDefaults stringForKey:kRate];
+    dollText.text = dollStr;
+    rateText.text = rateStr;
+    
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
@@ -57,8 +76,21 @@
     double rate = [rateText.text doubleValue];
     double yen = doll * rate;
     yenLabel.text = [NSString stringWithFormat:@"%.2f",yen];
+    
+    //ユーザーデフォルトを保存
+    [self saveDefault];
 }
 - (IBAction)backgroundTapped:(id)sender {
     [self.view endEditing:YES];
 }
+
+-(void)saveDefault
+{
+    //ドルとレートをユーザーデフォルトに保存
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:dollText.text forKey:kDoll];
+    [userDefaults setObject:rateText.text forKey:kRate];
+    [userDefaults synchronize];
+}
+
 @end
