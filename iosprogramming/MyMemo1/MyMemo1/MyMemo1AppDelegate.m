@@ -1,17 +1,17 @@
 //
-//  MyMemoAppDelegate.m
-//  MyMemo
+//  MyMemo1AppDelegate.m
+//  MyMemo1
 //
 //  Created by 玉城 辰朗 on 12/09/01.
 //  Copyright (c) 2012年 com geeoki. All rights reserved.
 //
 
-#import "MyMemoAppDelegate.h"
-#import "MyMemoViewController.h"
+#import "MyMemo1AppDelegate.h"
+#import "MyMemo1ViewController.h"
 
-@implementation MyMemoAppDelegate
+@implementation MyMemo1AppDelegate
+@synthesize viewController = _viewController;
 
-@synthesize viewController=_viewController;
 - (void)dealloc
 {
     [_window release];
@@ -20,21 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
     return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
-
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    [self.viewController saveFile];
+    //[self.viewController saveFile];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
