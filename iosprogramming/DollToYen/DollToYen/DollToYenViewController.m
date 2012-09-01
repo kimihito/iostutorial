@@ -52,9 +52,13 @@
     [super dealloc];
 }
 - (IBAction)calc:(id)sender {
+    [self.view endEditing:YES];
     double doll = [dollText.text doubleValue];
     double rate = [rateText.text doubleValue];
     double yen = doll * rate;
     yenLabel.text = [NSString stringWithFormat:@"%.2f",yen];
+}
+- (IBAction)backgroundTapped:(id)sender {
+    [self.view endEditing:YES];
 }
 @end

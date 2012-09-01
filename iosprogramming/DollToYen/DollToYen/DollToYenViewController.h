@@ -16,4 +16,7 @@
 @property (retain, nonatomic) IBOutlet UITextField *rateText;
 - (IBAction)calc:(id)sender;
 @property (retain, nonatomic) IBOutlet UITextField *yenLabel;
+
+- (IBAction)backgroundTapped:(id)sender;
+
 @end
