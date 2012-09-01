@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2826BF515F22053004D26D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826BF415F22053004D26D6 /* UIKit.framework */; };
+		F2826BF715F22053004D26D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826BF615F22053004D26D6 /* Foundation.framework */; };
+		F2826BF915F22053004D26D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826BF815F22053004D26D6 /* CoreGraphics.framework */; };
+		F2826BFF15F22053004D26D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2826BFD15F22053004D26D6 /* InfoPlist.strings */; };
+		F2826C0115F22053004D26D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826C0015F22053004D26D6 /* main.m */; };
+		F2826C0515F22053004D26D6 /* MyMemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826C0415F22053004D26D6 /* MyMemoAppDelegate.m */; };
+		F2826C0815F22053004D26D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2826C0615F22053004D26D6 /* MainStoryboard.storyboard */; };
+		F2826C0B15F22054004D26D6 /* MyMemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826C0A15F22054004D26D6 /* MyMemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2826BF015F22053004D26D6 /* MyMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2826BF415F22053004D26D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2826BF615F22053004D26D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2826BF815F22053004D26D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2826BFC15F22053004D26D6 /* MyMemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMemo-Info.plist"; sourceTree = "<group>"; };
+		F2826BFE15F22053004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2826C0015F22053004D26D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2826C0215F22053004D26D6 /* MyMemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMemo-Prefix.pch"; sourceTree = "<group>"; };
+		F2826C0315F22053004D26D6 /* MyMemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMemoAppDelegate.h; sourceTree = "<group>"; };
+		F2826C0415F22053004D26D6 /* MyMemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMemoAppDelegate.m; sourceTree = "<group>"; };
+		F2826C0715F22053004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2826C0915F22054004D26D6 /* MyMemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMemoViewController.h; sourceTree = "<group>"; };
+		F2826C0A15F22054004D26D6 /* MyMemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2826BED15F22053004D26D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826BF515F22053004D26D6 /* UIKit.framework in Frameworks */,
+				F2826BF715F22053004D26D6 /* Foundation.framework in Frameworks */,
+				F2826BF915F22053004D26D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2826BE515F22053004D26D6 = {
+			isa = PBXGroup;
+			children = (
+				F2826BFA15F22053004D26D6 /* MyMemo */,
+				F2826BF315F22053004D26D6 /* Frameworks */,
+				F2826BF115F22053004D26D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2826BF115F22053004D26D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BF015F22053004D26D6 /* MyMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2826BF315F22053004D26D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BF415F22053004D26D6 /* UIKit.framework */,
+				F2826BF615F22053004D26D6 /* Foundation.framework */,
+				F2826BF815F22053004D26D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2826BFA15F22053004D26D6 /* MyMemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2826C0315F22053004D26D6 /* MyMemoAppDelegate.h */,
+				F2826C0415F22053004D26D6 /* MyMemoAppDelegate.m */,
+				F2826C0615F22053004D26D6 /* MainStoryboard.storyboard */,
+				F2826C0915F22054004D26D6 /* MyMemoViewController.h */,
+				F2826C0A15F22054004D26D6 /* MyMemoViewController.m */,
+				F2826BFB15F22053004D26D6 /* Supporting Files */,
+			);
+			path = MyMemo;
+			sourceTree = "<group>";
+		};
+		F2826BFB15F22053004D26D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BFC15F22053004D26D6 /* MyMemo-Info.plist */,
+				F2826BFD15F22053004D26D6 /* InfoPlist.strings */,
+				F2826C0015F22053004D26D6 /* main.m */,
+				F2826C0215F22053004D26D6 /* MyMemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2826BEF15F22053004D26D6 /* MyMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2826C0E15F22054004D26D6 /* Build configuration list for PBXNativeTarget "MyMemo" */;
+			buildPhases = (
+				F2826BEC15F22053004D26D6 /* Sources */,
+				F2826BED15F22053004D26D6 /* Frameworks */,
+				F2826BEE15F22053004D26D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMemo;
+			productName = MyMemo;
+			productReference = F2826BF015F22053004D26D6 /* MyMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2826BE715F22053004D26D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyMemo;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F2826BEA15F22053004D26D6 /* Build configuration list for PBXProject "MyMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2826BE515F22053004D26D6;
+			productRefGroup = F2826BF115F22053004D26D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2826BEF15F22053004D26D6 /* MyMemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2826BEE15F22053004D26D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826BFF15F22053004D26D6 /* InfoPlist.strings in Resources */,
+				F2826C0815F22053004D26D6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2826BEC15F22053004D26D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826C0115F22053004D26D6 /* main.m in Sources */,
+				F2826C0515F22053004D26D6 /* MyMemoAppDelegate.m in Sources */,
+				F2826C0B15F22054004D26D6 /* MyMemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2826BFD15F22053004D26D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826BFE15F22053004D26D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2826C0615F22053004D26D6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826C0715F22053004D26D6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2826C0C15F22054004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2826C0D15F22054004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2826C0F15F22054004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMemo/MyMemo-Prefix.pch";
+				INFOPLIST_FILE = "MyMemo/MyMemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2826C1015F22054004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMemo/MyMemo-Prefix.pch";
+				INFOPLIST_FILE = "MyMemo/MyMemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2826BEA15F22053004D26D6 /* Build configuration list for PBXProject "MyMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826C0C15F22054004D26D6 /* Debug */,
+				F2826C0D15F22054004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2826C0E15F22054004D26D6 /* Build configuration list for PBXNativeTarget "MyMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826C0F15F22054004D26D6 /* Debug */,
+				F2826C1015F22054004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2826BE715F22053004D26D6 /* Project object */;
+}
