@@ -60,7 +60,7 @@
 -(void)loadFile
 {
     //ロードするファイルのパスを設定
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *path = [[paths objectAtIndex:0]stringByAppendingPathComponent:@"memo.txt"];
     
     //ファイルマネージャを取得
