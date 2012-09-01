@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2826B9415F18FBB004D26D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826B9315F18FBB004D26D6 /* UIKit.framework */; };
+		F2826B9615F18FBB004D26D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826B9515F18FBB004D26D6 /* Foundation.framework */; };
+		F2826B9815F18FBB004D26D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2826B9715F18FBB004D26D6 /* CoreGraphics.framework */; };
+		F2826B9E15F18FBB004D26D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2826B9C15F18FBB004D26D6 /* InfoPlist.strings */; };
+		F2826BA015F18FBB004D26D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826B9F15F18FBB004D26D6 /* main.m */; };
+		F2826BA415F18FBB004D26D6 /* OekakiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826BA315F18FBB004D26D6 /* OekakiAppDelegate.m */; };
+		F2826BA715F18FBB004D26D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2826BA515F18FBB004D26D6 /* MainStoryboard.storyboard */; };
+		F2826BAA15F18FBB004D26D6 /* OekakiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826BA915F18FBB004D26D6 /* OekakiViewController.m */; };
+		F2826BB215F195A0004D26D6 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826BB115F195A0004D26D6 /* Line.m */; };
+		F2826BB515F19671004D26D6 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2826BB415F19671004D26D6 /* CanvasView.m */; };
+		F2826BB815F1A318004D26D6 /* pa.png in Resources */ = {isa = PBXBuildFile; fileRef = F2826BB715F1A318004D26D6 /* pa.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2826B8F15F18FBB004D26D6 /* Oekaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oekaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2826B9315F18FBB004D26D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2826B9515F18FBB004D26D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2826B9715F18FBB004D26D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2826B9B15F18FBB004D26D6 /* Oekaki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oekaki-Info.plist"; sourceTree = "<group>"; };
+		F2826B9D15F18FBB004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2826B9F15F18FBB004D26D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2826BA115F18FBB004D26D6 /* Oekaki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oekaki-Prefix.pch"; sourceTree = "<group>"; };
+		F2826BA215F18FBB004D26D6 /* OekakiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OekakiAppDelegate.h; sourceTree = "<group>"; };
+		F2826BA315F18FBB004D26D6 /* OekakiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OekakiAppDelegate.m; sourceTree = "<group>"; };
+		F2826BA615F18FBB004D26D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2826BA815F18FBB004D26D6 /* OekakiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OekakiViewController.h; sourceTree = "<group>"; };
+		F2826BA915F18FBB004D26D6 /* OekakiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OekakiViewController.m; sourceTree = "<group>"; };
+		F2826BB015F195A0004D26D6 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Line.h; path = ../Line.h; sourceTree = "<group>"; };
+		F2826BB115F195A0004D26D6 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Line.m; path = ../Line.m; sourceTree = "<group>"; };
+		F2826BB315F19671004D26D6 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CanvasView.h; path = ../CanvasView.h; sourceTree = "<group>"; };
+		F2826BB415F19671004D26D6 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CanvasView.m; path = ../CanvasView.m; sourceTree = "<group>"; };
+		F2826BB715F1A318004D26D6 /* pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pa.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2826B8C15F18FBB004D26D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826B9415F18FBB004D26D6 /* UIKit.framework in Frameworks */,
+				F2826B9615F18FBB004D26D6 /* Foundation.framework in Frameworks */,
+				F2826B9815F18FBB004D26D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2826B8415F18FBB004D26D6 = {
+			isa = PBXGroup;
+			children = (
+				F2826BB615F1A310004D26D6 /* images */,
+				F2826B9915F18FBB004D26D6 /* Oekaki */,
+				F2826B9215F18FBB004D26D6 /* Frameworks */,
+				F2826B9015F18FBB004D26D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2826B9015F18FBB004D26D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B8F15F18FBB004D26D6 /* Oekaki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2826B9215F18FBB004D26D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B9315F18FBB004D26D6 /* UIKit.framework */,
+				F2826B9515F18FBB004D26D6 /* Foundation.framework */,
+				F2826B9715F18FBB004D26D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2826B9915F18FBB004D26D6 /* Oekaki */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BB315F19671004D26D6 /* CanvasView.h */,
+				F2826BB415F19671004D26D6 /* CanvasView.m */,
+				F2826BB015F195A0004D26D6 /* Line.h */,
+				F2826BB115F195A0004D26D6 /* Line.m */,
+				F2826BA215F18FBB004D26D6 /* OekakiAppDelegate.h */,
+				F2826BA315F18FBB004D26D6 /* OekakiAppDelegate.m */,
+				F2826BA515F18FBB004D26D6 /* MainStoryboard.storyboard */,
+				F2826BA815F18FBB004D26D6 /* OekakiViewController.h */,
+				F2826BA915F18FBB004D26D6 /* OekakiViewController.m */,
+				F2826B9A15F18FBB004D26D6 /* Supporting Files */,
+			);
+			path = Oekaki;
+			sourceTree = "<group>";
+		};
+		F2826B9A15F18FBB004D26D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2826B9B15F18FBB004D26D6 /* Oekaki-Info.plist */,
+				F2826B9C15F18FBB004D26D6 /* InfoPlist.strings */,
+				F2826B9F15F18FBB004D26D6 /* main.m */,
+				F2826BA115F18FBB004D26D6 /* Oekaki-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2826BB615F1A310004D26D6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F2826BB715F1A318004D26D6 /* pa.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2826B8E15F18FBB004D26D6 /* Oekaki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2826BAD15F18FBB004D26D6 /* Build configuration list for PBXNativeTarget "Oekaki" */;
+			buildPhases = (
+				F2826B8B15F18FBB004D26D6 /* Sources */,
+				F2826B8C15F18FBB004D26D6 /* Frameworks */,
+				F2826B8D15F18FBB004D26D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oekaki;
+			productName = Oekaki;
+			productReference = F2826B8F15F18FBB004D26D6 /* Oekaki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2826B8615F18FBB004D26D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Oekaki;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F2826B8915F18FBB004D26D6 /* Build configuration list for PBXProject "Oekaki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2826B8415F18FBB004D26D6;
+			productRefGroup = F2826B9015F18FBB004D26D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2826B8E15F18FBB004D26D6 /* Oekaki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2826B8D15F18FBB004D26D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826B9E15F18FBB004D26D6 /* InfoPlist.strings in Resources */,
+				F2826BA715F18FBB004D26D6 /* MainStoryboard.storyboard in Resources */,
+				F2826BB815F1A318004D26D6 /* pa.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2826B8B15F18FBB004D26D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2826BA015F18FBB004D26D6 /* main.m in Sources */,
+				F2826BA415F18FBB004D26D6 /* OekakiAppDelegate.m in Sources */,
+				F2826BAA15F18FBB004D26D6 /* OekakiViewController.m in Sources */,
+				F2826BB215F195A0004D26D6 /* Line.m in Sources */,
+				F2826BB515F19671004D26D6 /* CanvasView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2826B9C15F18FBB004D26D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826B9D15F18FBB004D26D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2826BA515F18FBB004D26D6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2826BA615F18FBB004D26D6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2826BAB15F18FBB004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2826BAC15F18FBB004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2826BAE15F18FBB004D26D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oekaki/Oekaki-Prefix.pch";
+				INFOPLIST_FILE = "Oekaki/Oekaki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2826BAF15F18FBB004D26D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Oekaki/Oekaki-Prefix.pch";
+				INFOPLIST_FILE = "Oekaki/Oekaki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2826B8915F18FBB004D26D6 /* Build configuration list for PBXProject "Oekaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826BAB15F18FBB004D26D6 /* Debug */,
+				F2826BAC15F18FBB004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2826BAD15F18FBB004D26D6 /* Build configuration list for PBXNativeTarget "Oekaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2826BAE15F18FBB004D26D6 /* Debug */,
+				F2826BAF15F18FBB004D26D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2826B8615F18FBB004D26D6 /* Project object */;
+}
