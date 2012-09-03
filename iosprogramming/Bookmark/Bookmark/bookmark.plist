@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bookmarks</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>楽天</string>
+			<key>url</key>
+			<string>http://www.rakuten.co.jp</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Asahi</string>
+			<key>url</key>
+			<string>http://www.asahi.com/</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>スラッシュドット</string>
+			<key>url</key>
+			<string>http://slashdot.jp/</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>twtter</string>
+			<key>url</key>
+			<string>http://www.twitter.com/</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>アップル</string>
+			<key>url</key>
+			<string>http://www.apple.com/</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>google</string>
+			<key>url</key>
+			<string>http://www.google.com</string>
+		</dict>
+	</array>
+</dict>
+</plist>

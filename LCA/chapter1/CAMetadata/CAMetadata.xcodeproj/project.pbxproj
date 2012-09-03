@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24FC62D15F4315C002C78DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24FC62C15F4315C002C78DF /* Foundation.framework */; };
+		F24FC63015F4315C002C78DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24FC62F15F4315C002C78DF /* main.m */; };
+		F24FC63415F4315C002C78DF /* CAMetadata.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F24FC63315F4315C002C78DF /* CAMetadata.1 */; };
+		F24FC63B15F43598002C78DF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24FC63A15F43598002C78DF /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F24FC62615F4315C002C78DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F24FC63415F4315C002C78DF /* CAMetadata.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F24FC62815F4315C002C78DF /* CAMetadata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CAMetadata; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24FC62C15F4315C002C78DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F24FC62F15F4315C002C78DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F24FC63215F4315C002C78DF /* CAMetadata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAMetadata-Prefix.pch"; sourceTree = "<group>"; };
+		F24FC63315F4315C002C78DF /* CAMetadata.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CAMetadata.1; sourceTree = "<group>"; };
+		F24FC63A15F43598002C78DF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24FC62515F4315C002C78DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FC63B15F43598002C78DF /* AudioToolbox.framework in Frameworks */,
+				F24FC62D15F4315C002C78DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24FC61D15F4315C002C78DF = {
+			isa = PBXGroup;
+			children = (
+				F24FC62E15F4315C002C78DF /* CAMetadata */,
+				F24FC62B15F4315C002C78DF /* Frameworks */,
+				F24FC62915F4315C002C78DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24FC62915F4315C002C78DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24FC62815F4315C002C78DF /* CAMetadata */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24FC62B15F4315C002C78DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F24FC63A15F43598002C78DF /* AudioToolbox.framework */,
+				F24FC62C15F4315C002C78DF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F24FC62E15F4315C002C78DF /* CAMetadata */ = {
+			isa = PBXGroup;
+			children = (
+				F24FC62F15F4315C002C78DF /* main.m */,
+				F24FC63315F4315C002C78DF /* CAMetadata.1 */,
+				F24FC63115F4315C002C78DF /* Supporting Files */,
+			);
+			path = CAMetadata;
+			sourceTree = "<group>";
+		};
+		F24FC63115F4315C002C78DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F24FC63215F4315C002C78DF /* CAMetadata-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24FC62715F4315C002C78DF /* CAMetadata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24FC63715F4315C002C78DF /* Build configuration list for PBXNativeTarget "CAMetadata" */;
+			buildPhases = (
+				F24FC62415F4315C002C78DF /* Sources */,
+				F24FC62515F4315C002C78DF /* Frameworks */,
+				F24FC62615F4315C002C78DF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAMetadata;
+			productName = CAMetadata;
+			productReference = F24FC62815F4315C002C78DF /* CAMetadata */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24FC61F15F4315C002C78DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F24FC62215F4315C002C78DF /* Build configuration list for PBXProject "CAMetadata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F24FC61D15F4315C002C78DF;
+			productRefGroup = F24FC62915F4315C002C78DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24FC62715F4315C002C78DF /* CAMetadata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24FC62415F4315C002C78DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FC63015F4315C002C78DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F24FC63515F4315C002C78DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F24FC63615F4315C002C78DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F24FC63815F4315C002C78DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAMetadata/CAMetadata-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F24FC63915F4315C002C78DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAMetadata/CAMetadata-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24FC62215F4315C002C78DF /* Build configuration list for PBXProject "CAMetadata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FC63515F4315C002C78DF /* Debug */,
+				F24FC63615F4315C002C78DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24FC63715F4315C002C78DF /* Build configuration list for PBXNativeTarget "CAMetadata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24FC63815F4315C002C78DF /* Debug */,
+				F24FC63915F4315C002C78DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24FC61F15F4315C002C78DF /* Project object */;
+}
