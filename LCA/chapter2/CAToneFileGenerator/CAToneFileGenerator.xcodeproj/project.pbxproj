@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F27248A915F4A5090043BBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27248A815F4A5090043BBC7 /* Foundation.framework */; };
+		F27248AC15F4A5090043BBC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F27248AB15F4A5090043BBC7 /* main.m */; };
+		F27248B015F4A5090043BBC7 /* CAToneFileGenerator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F27248AF15F4A5090043BBC7 /* CAToneFileGenerator.1 */; };
+		F27248B715F4A5210043BBC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27248B615F4A5210043BBC7 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F27248A215F4A5090043BBC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F27248B015F4A5090043BBC7 /* CAToneFileGenerator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F27248A415F4A5090043BBC7 /* CAToneFileGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CAToneFileGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27248A815F4A5090043BBC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F27248AB15F4A5090043BBC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F27248AE15F4A5090043BBC7 /* CAToneFileGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAToneFileGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		F27248AF15F4A5090043BBC7 /* CAToneFileGenerator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CAToneFileGenerator.1; sourceTree = "<group>"; };
+		F27248B615F4A5210043BBC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27248A115F4A5090043BBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27248B715F4A5210043BBC7 /* AudioToolbox.framework in Frameworks */,
+				F27248A915F4A5090043BBC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F272489915F4A5090043BBC7 = {
+			isa = PBXGroup;
+			children = (
+				F27248AA15F4A5090043BBC7 /* CAToneFileGenerator */,
+				F27248A715F4A5090043BBC7 /* Frameworks */,
+				F27248A515F4A5090043BBC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F27248A515F4A5090043BBC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27248A415F4A5090043BBC7 /* CAToneFileGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27248A715F4A5090043BBC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27248B615F4A5210043BBC7 /* AudioToolbox.framework */,
+				F27248A815F4A5090043BBC7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27248AA15F4A5090043BBC7 /* CAToneFileGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				F27248AB15F4A5090043BBC7 /* main.m */,
+				F27248AF15F4A5090043BBC7 /* CAToneFileGenerator.1 */,
+				F27248AD15F4A5090043BBC7 /* Supporting Files */,
+			);
+			path = CAToneFileGenerator;
+			sourceTree = "<group>";
+		};
+		F27248AD15F4A5090043BBC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F27248AE15F4A5090043BBC7 /* CAToneFileGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27248A315F4A5090043BBC7 /* CAToneFileGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27248B315F4A5090043BBC7 /* Build configuration list for PBXNativeTarget "CAToneFileGenerator" */;
+			buildPhases = (
+				F27248A015F4A5090043BBC7 /* Sources */,
+				F27248A115F4A5090043BBC7 /* Frameworks */,
+				F27248A215F4A5090043BBC7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAToneFileGenerator;
+			productName = CAToneFileGenerator;
+			productReference = F27248A415F4A5090043BBC7 /* CAToneFileGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F272489B15F4A5090043BBC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F272489E15F4A5090043BBC7 /* Build configuration list for PBXProject "CAToneFileGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F272489915F4A5090043BBC7;
+			productRefGroup = F27248A515F4A5090043BBC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27248A315F4A5090043BBC7 /* CAToneFileGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27248A015F4A5090043BBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27248AC15F4A5090043BBC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F27248B115F4A5090043BBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F27248B215F4A5090043BBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F27248B415F4A5090043BBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAToneFileGenerator/CAToneFileGenerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F27248B515F4A5090043BBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAToneFileGenerator/CAToneFileGenerator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F272489E15F4A5090043BBC7 /* Build configuration list for PBXProject "CAToneFileGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27248B115F4A5090043BBC7 /* Debug */,
+				F27248B215F4A5090043BBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27248B315F4A5090043BBC7 /* Build configuration list for PBXNativeTarget "CAToneFileGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27248B415F4A5090043BBC7 /* Debug */,
+				F27248B515F4A5090043BBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F272489B15F4A5090043BBC7 /* Project object */;
+}
