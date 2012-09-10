@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20FA17715FB82080085A143 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20FA17615FB82080085A143 /* UIKit.framework */; };
+		F20FA17915FB82080085A143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20FA17815FB82080085A143 /* Foundation.framework */; };
+		F20FA17B15FB82080085A143 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20FA17A15FB82080085A143 /* CoreGraphics.framework */; };
+		F20FA18115FB82080085A143 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F20FA17F15FB82080085A143 /* InfoPlist.strings */; };
+		F20FA18315FB82080085A143 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20FA18215FB82080085A143 /* main.m */; };
+		F20FA18715FB82080085A143 /* RecordAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20FA18615FB82080085A143 /* RecordAppDelegate.m */; };
+		F20FA18A15FB82080085A143 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20FA18815FB82080085A143 /* MainStoryboard.storyboard */; };
+		F20FA18D15FB82080085A143 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20FA18C15FB82080085A143 /* RecordViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20FA17215FB82080085A143 /* hige.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hige.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20FA17615FB82080085A143 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F20FA17815FB82080085A143 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F20FA17A15FB82080085A143 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F20FA17E15FB82080085A143 /* hige-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hige-Info.plist"; sourceTree = "<group>"; };
+		F20FA18015FB82080085A143 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F20FA18215FB82080085A143 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F20FA18415FB82080085A143 /* hige-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hige-Prefix.pch"; sourceTree = "<group>"; };
+		F20FA18515FB82080085A143 /* RecordAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordAppDelegate.h; sourceTree = "<group>"; };
+		F20FA18615FB82080085A143 /* RecordAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordAppDelegate.m; sourceTree = "<group>"; };
+		F20FA18915FB82080085A143 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F20FA18B15FB82080085A143 /* RecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		F20FA18C15FB82080085A143 /* RecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20FA16F15FB82080085A143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20FA17715FB82080085A143 /* UIKit.framework in Frameworks */,
+				F20FA17915FB82080085A143 /* Foundation.framework in Frameworks */,
+				F20FA17B15FB82080085A143 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20FA16715FB82080085A143 = {
+			isa = PBXGroup;
+			children = (
+				F20FA17C15FB82080085A143 /* hige */,
+				F20FA17515FB82080085A143 /* Frameworks */,
+				F20FA17315FB82080085A143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20FA17315FB82080085A143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20FA17215FB82080085A143 /* hige.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20FA17515FB82080085A143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20FA17615FB82080085A143 /* UIKit.framework */,
+				F20FA17815FB82080085A143 /* Foundation.framework */,
+				F20FA17A15FB82080085A143 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20FA17C15FB82080085A143 /* hige */ = {
+			isa = PBXGroup;
+			children = (
+				F20FA18515FB82080085A143 /* RecordAppDelegate.h */,
+				F20FA18615FB82080085A143 /* RecordAppDelegate.m */,
+				F20FA18815FB82080085A143 /* MainStoryboard.storyboard */,
+				F20FA18B15FB82080085A143 /* RecordViewController.h */,
+				F20FA18C15FB82080085A143 /* RecordViewController.m */,
+				F20FA17D15FB82080085A143 /* Supporting Files */,
+			);
+			path = hige;
+			sourceTree = "<group>";
+		};
+		F20FA17D15FB82080085A143 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F20FA17E15FB82080085A143 /* hige-Info.plist */,
+				F20FA17F15FB82080085A143 /* InfoPlist.strings */,
+				F20FA18215FB82080085A143 /* main.m */,
+				F20FA18415FB82080085A143 /* hige-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20FA17115FB82080085A143 /* hige */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20FA19015FB82080085A143 /* Build configuration list for PBXNativeTarget "hige" */;
+			buildPhases = (
+				F20FA16E15FB82080085A143 /* Sources */,
+				F20FA16F15FB82080085A143 /* Frameworks */,
+				F20FA17015FB82080085A143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hige;
+			productName = hige;
+			productReference = F20FA17215FB82080085A143 /* hige.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20FA16915FB82080085A143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Record;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F20FA16C15FB82080085A143 /* Build configuration list for PBXProject "hige" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F20FA16715FB82080085A143;
+			productRefGroup = F20FA17315FB82080085A143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20FA17115FB82080085A143 /* hige */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20FA17015FB82080085A143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20FA18115FB82080085A143 /* InfoPlist.strings in Resources */,
+				F20FA18A15FB82080085A143 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20FA16E15FB82080085A143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20FA18315FB82080085A143 /* main.m in Sources */,
+				F20FA18715FB82080085A143 /* RecordAppDelegate.m in Sources */,
+				F20FA18D15FB82080085A143 /* RecordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F20FA17F15FB82080085A143 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20FA18015FB82080085A143 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F20FA18815FB82080085A143 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20FA18915FB82080085A143 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20FA18E15FB82080085A143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F20FA18F15FB82080085A143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20FA19115FB82080085A143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hige/hige-Prefix.pch";
+				INFOPLIST_FILE = "hige/hige-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F20FA19215FB82080085A143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hige/hige-Prefix.pch";
+				INFOPLIST_FILE = "hige/hige-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20FA16C15FB82080085A143 /* Build configuration list for PBXProject "hige" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20FA18E15FB82080085A143 /* Debug */,
+				F20FA18F15FB82080085A143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20FA19015FB82080085A143 /* Build configuration list for PBXNativeTarget "hige" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20FA19115FB82080085A143 /* Debug */,
+				F20FA19215FB82080085A143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20FA16915FB82080085A143 /* Project object */;
+}

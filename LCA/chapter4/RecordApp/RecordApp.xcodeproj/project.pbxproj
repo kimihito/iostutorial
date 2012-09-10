@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F231953615F9DB0700F4DDCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F231953515F9DB0700F4DDCA /* UIKit.framework */; };
+		F231953815F9DB0700F4DDCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F231953715F9DB0700F4DDCA /* Foundation.framework */; };
+		F231953A15F9DB0700F4DDCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F231953915F9DB0700F4DDCA /* CoreGraphics.framework */; };
+		F231954015F9DB0700F4DDCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F231953E15F9DB0700F4DDCA /* InfoPlist.strings */; };
+		F231954215F9DB0700F4DDCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F231954115F9DB0700F4DDCA /* main.m */; };
+		F231954615F9DB0700F4DDCA /* RecordAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F231954515F9DB0700F4DDCA /* RecordAppDelegate.m */; };
+		F231954915F9DB0700F4DDCA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F231954715F9DB0700F4DDCA /* MainStoryboard.storyboard */; };
+		F231954C15F9DB0700F4DDCA /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F231954B15F9DB0700F4DDCA /* RecordViewController.m */; };
+		F231955415F9DC8E00F4DDCA /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = F231955315F9DC8E00F4DDCA /* Record.m */; };
+		F231955615F9DE2200F4DDCA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F231955515F9DE2200F4DDCA /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F231953115F9DB0700F4DDCA /* RecordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F231953515F9DB0700F4DDCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F231953715F9DB0700F4DDCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F231953915F9DB0700F4DDCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F231953D15F9DB0700F4DDCA /* RecordApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecordApp-Info.plist"; sourceTree = "<group>"; };
+		F231953F15F9DB0700F4DDCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F231954115F9DB0700F4DDCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F231954315F9DB0700F4DDCA /* RecordApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecordApp-Prefix.pch"; sourceTree = "<group>"; };
+		F231954415F9DB0700F4DDCA /* RecordAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordAppDelegate.h; sourceTree = "<group>"; };
+		F231954515F9DB0700F4DDCA /* RecordAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordAppDelegate.m; sourceTree = "<group>"; };
+		F231954815F9DB0700F4DDCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F231954A15F9DB0700F4DDCA /* RecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		F231954B15F9DB0700F4DDCA /* RecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		F231955215F9DC8E00F4DDCA /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		F231955315F9DC8E00F4DDCA /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		F231955515F9DE2200F4DDCA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F231952E15F9DB0700F4DDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F231955615F9DE2200F4DDCA /* AudioToolbox.framework in Frameworks */,
+				F231953615F9DB0700F4DDCA /* UIKit.framework in Frameworks */,
+				F231953815F9DB0700F4DDCA /* Foundation.framework in Frameworks */,
+				F231953A15F9DB0700F4DDCA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F231952615F9DB0700F4DDCA = {
+			isa = PBXGroup;
+			children = (
+				F231953B15F9DB0700F4DDCA /* RecordApp */,
+				F231953415F9DB0700F4DDCA /* Frameworks */,
+				F231953215F9DB0700F4DDCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F231953215F9DB0700F4DDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F231953115F9DB0700F4DDCA /* RecordApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F231953415F9DB0700F4DDCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F231955515F9DE2200F4DDCA /* AudioToolbox.framework */,
+				F231953515F9DB0700F4DDCA /* UIKit.framework */,
+				F231953715F9DB0700F4DDCA /* Foundation.framework */,
+				F231953915F9DB0700F4DDCA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F231953B15F9DB0700F4DDCA /* RecordApp */ = {
+			isa = PBXGroup;
+			children = (
+				F231954415F9DB0700F4DDCA /* RecordAppDelegate.h */,
+				F231954515F9DB0700F4DDCA /* RecordAppDelegate.m */,
+				F231954715F9DB0700F4DDCA /* MainStoryboard.storyboard */,
+				F231954A15F9DB0700F4DDCA /* RecordViewController.h */,
+				F231954B15F9DB0700F4DDCA /* RecordViewController.m */,
+				F231953C15F9DB0700F4DDCA /* Supporting Files */,
+				F231955215F9DC8E00F4DDCA /* Record.h */,
+				F231955315F9DC8E00F4DDCA /* Record.m */,
+			);
+			path = RecordApp;
+			sourceTree = "<group>";
+		};
+		F231953C15F9DB0700F4DDCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F231953D15F9DB0700F4DDCA /* RecordApp-Info.plist */,
+				F231953E15F9DB0700F4DDCA /* InfoPlist.strings */,
+				F231954115F9DB0700F4DDCA /* main.m */,
+				F231954315F9DB0700F4DDCA /* RecordApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F231953015F9DB0700F4DDCA /* RecordApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F231954F15F9DB0700F4DDCA /* Build configuration list for PBXNativeTarget "RecordApp" */;
+			buildPhases = (
+				F231952D15F9DB0700F4DDCA /* Sources */,
+				F231952E15F9DB0700F4DDCA /* Frameworks */,
+				F231952F15F9DB0700F4DDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordApp;
+			productName = RecordApp;
+			productReference = F231953115F9DB0700F4DDCA /* RecordApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F231952815F9DB0700F4DDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Record;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F231952B15F9DB0700F4DDCA /* Build configuration list for PBXProject "RecordApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F231952615F9DB0700F4DDCA;
+			productRefGroup = F231953215F9DB0700F4DDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F231953015F9DB0700F4DDCA /* RecordApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F231952F15F9DB0700F4DDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F231954015F9DB0700F4DDCA /* InfoPlist.strings in Resources */,
+				F231954915F9DB0700F4DDCA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F231952D15F9DB0700F4DDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F231954215F9DB0700F4DDCA /* main.m in Sources */,
+				F231954615F9DB0700F4DDCA /* RecordAppDelegate.m in Sources */,
+				F231954C15F9DB0700F4DDCA /* RecordViewController.m in Sources */,
+				F231955415F9DC8E00F4DDCA /* Record.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F231953E15F9DB0700F4DDCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F231953F15F9DB0700F4DDCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F231954715F9DB0700F4DDCA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F231954815F9DB0700F4DDCA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F231954D15F9DB0700F4DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F231954E15F9DB0700F4DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F231955015F9DB0700F4DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecordApp/RecordApp-Prefix.pch";
+				INFOPLIST_FILE = "RecordApp/RecordApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F231955115F9DB0700F4DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecordApp/RecordApp-Prefix.pch";
+				INFOPLIST_FILE = "RecordApp/RecordApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F231952B15F9DB0700F4DDCA /* Build configuration list for PBXProject "RecordApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F231954D15F9DB0700F4DDCA /* Debug */,
+				F231954E15F9DB0700F4DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F231954F15F9DB0700F4DDCA /* Build configuration list for PBXNativeTarget "RecordApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F231955015F9DB0700F4DDCA /* Debug */,
+				F231955115F9DB0700F4DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F231952815F9DB0700F4DDCA /* Project object */;
+}

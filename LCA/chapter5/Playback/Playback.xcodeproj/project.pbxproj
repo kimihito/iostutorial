@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F243D80415FD6BCB00984BFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F243D80315FD6BCB00984BFF /* Foundation.framework */; };
+		F243D80715FD6BCB00984BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F243D80615FD6BCB00984BFF /* main.m */; };
+		F243D80B15FD6BCB00984BFF /* Playback.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F243D80A15FD6BCB00984BFF /* Playback.1 */; };
+		F243D81215FD6BE400984BFF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F243D81115FD6BE400984BFF /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F243D7FD15FD6BCB00984BFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F243D80B15FD6BCB00984BFF /* Playback.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F243D7FF15FD6BCB00984BFF /* Playback */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Playback; sourceTree = BUILT_PRODUCTS_DIR; };
+		F243D80315FD6BCB00984BFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F243D80615FD6BCB00984BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F243D80915FD6BCB00984BFF /* Playback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playback-Prefix.pch"; sourceTree = "<group>"; };
+		F243D80A15FD6BCB00984BFF /* Playback.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Playback.1; sourceTree = "<group>"; };
+		F243D81115FD6BE400984BFF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F243D7FC15FD6BCB00984BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243D81215FD6BE400984BFF /* AudioToolbox.framework in Frameworks */,
+				F243D80415FD6BCB00984BFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F243D7F415FD6BCB00984BFF = {
+			isa = PBXGroup;
+			children = (
+				F243D80515FD6BCB00984BFF /* Playback */,
+				F243D80215FD6BCB00984BFF /* Frameworks */,
+				F243D80015FD6BCB00984BFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F243D80015FD6BCB00984BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F243D7FF15FD6BCB00984BFF /* Playback */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F243D80215FD6BCB00984BFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F243D81115FD6BE400984BFF /* AudioToolbox.framework */,
+				F243D80315FD6BCB00984BFF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F243D80515FD6BCB00984BFF /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				F243D80615FD6BCB00984BFF /* main.m */,
+				F243D80A15FD6BCB00984BFF /* Playback.1 */,
+				F243D80815FD6BCB00984BFF /* Supporting Files */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		F243D80815FD6BCB00984BFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F243D80915FD6BCB00984BFF /* Playback-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F243D7FE15FD6BCB00984BFF /* Playback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F243D80E15FD6BCB00984BFF /* Build configuration list for PBXNativeTarget "Playback" */;
+			buildPhases = (
+				F243D7FB15FD6BCB00984BFF /* Sources */,
+				F243D7FC15FD6BCB00984BFF /* Frameworks */,
+				F243D7FD15FD6BCB00984BFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Playback;
+			productName = Playback;
+			productReference = F243D7FF15FD6BCB00984BFF /* Playback */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F243D7F615FD6BCB00984BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "com geeoki";
+			};
+			buildConfigurationList = F243D7F915FD6BCB00984BFF /* Build configuration list for PBXProject "Playback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F243D7F415FD6BCB00984BFF;
+			productRefGroup = F243D80015FD6BCB00984BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F243D7FE15FD6BCB00984BFF /* Playback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F243D7FB15FD6BCB00984BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243D80715FD6BCB00984BFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F243D80C15FD6BCB00984BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F243D80D15FD6BCB00984BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F243D80F15FD6BCB00984BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playback/Playback-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F243D81015FD6BCB00984BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playback/Playback-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F243D7F915FD6BCB00984BFF /* Build configuration list for PBXProject "Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F243D80C15FD6BCB00984BFF /* Debug */,
+				F243D80D15FD6BCB00984BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F243D80E15FD6BCB00984BFF /* Build configuration list for PBXNativeTarget "Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F243D80F15FD6BCB00984BFF /* Debug */,
+				F243D81015FD6BCB00984BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F243D7F615FD6BCB00984BFF /* Project object */;
+}
